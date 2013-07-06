@@ -5,53 +5,17 @@ require 'mechanize'
 require 'date'
 require 'nokogiri'
 require 'open-uri'
+require './sites'
 
 frum = ARGV[0].to_i || 0# forum muon post
 
 burst = 0
-ispost = true
+ispost = false
 rtime = 3 # so lan post lại nếu bị lỗi
 
-sites = [
-	{:url => "http://widih.modifikasi.com/forum/member.php?action=login", :login => "member.php", 
-	:pname => "http://widih.modifikasi.com/forum/newthread.php?fid=45", :paction => "newthread.php?fid=45&processed=1",
-	:user => "nudufo", :pass => "228787", :sleeptime => 60, :burstsize => 400},
-	{:url => "http://teluga.com", :login => "login.php?do=login", 
-	:pname => "http://teluga.com/newthread.php?do=newthread&f=46", :paction => "newthread.php?do=postthread&f=46",
-	:user => "aword1", :pass => "228787", :sleeptime => 60, :burstsize => 400},
-	{:url => "http://alquz.com/vb/", :login => "http://alquz.com/vb/login.php?do=login", 
-	:pname => "http://alquz.com/vb/newthread.php?do=newthread&f=81", :paction => "newthread.php?do=newthread&f=81",
-	:user => "nudufo", :pass => "228787", :sleeptime => 60, :burstsize => 20},
-	{:url => "http://www.nogooom.com/forums/", :login => "login.php?do=login", 
-	:pname => "http://www.nogooom.com/forums/newthread.php?do=newthread&f=81", :paction => "newthread.php?do=postthread&f=81",
-	:user => "nudufo", :pass => "228787", :sleeptime => 60, :burstsize => 400},
-	{:url => "http://warezusa.us",
-	:pname => "http://warezusa.us/index.php?app=forums&module=post&section=post&do=new_post&f=15",
-	:user => "gihana", :pass => "228787", :sleeptime => 61, :burstsize => 29},
-	{:url => "http://craiovaforum.ro", :login => "login.php?do=login", 
-	:pname => "http://craiovaforum.ro/newthread.php?do=newthread&f=14", :paction => "newthread.php?do=postthread&f=14",
-	:user => "nudufo", :pass => "228787"},
-	{:url => "http://www.eyoonk.com/vb/", :login => "/vb/login.php?do=login", 
-	:pname => "http://eyoonk.com/vb/newthread.php?do=newthread&f=78", :paction => "newthread.php?do=postthread&f=78", :prefix => "حصريا",
-	:user => "nudufo", :pass => "228787"},
-	{:url => "http://iatraf.co.il", :login => "login.php?do=login", 
-	:pname => "http://iatraf.co.il/newthread.php?do=newthread&f=249", :paction => "newthread.php?do=postthread&f=249", :prefix => '[בקשה]',
-	:user => "mothtrdo", :pass => "228787"},
-	{:url => "http://teluga.com", :login => "http://teluga.com/login.php?do=login", 
-	:pname => "http://teluga.com/newthread.php?do=newthread&f=46", :paction => "newthread.php?do=postthread&f=46",
-	:user => "aword1", :pass => "228787"},
-	{:url => "http://www.elforro.com", :login => "http://www.elforro.com/login.php?do=login", 
-	:pname => "http://www.elforro.com/newthread.php?do=newthread&f=149", :paction => "newthread.php?do=postthread&f=149",
-	:user => "gihana", :pass => "228787"},
-	{:url => "http://rapdrop.com", :login => "login.php?do=login", 
-	:pname => "http://rapdrop.com/newthread.php?do=newthread&f=35", :paction => "newthread.php?do=postthread&f=35",
-	:user => "dicochno", :pass => "228787"},
-	{:url => "http://www.expresshare.com", :login => "http://www.expresshare.com/login.php?do=login", 
-	:pname => "http://www.expresshare.com/newthread.php?do=newthread&f=9", :paction => "newthread.php?do=postthread&f=9",
-	:user => "gihana", :pass => "228787"}
-]
-sleeptime =  sites[frum][:sleeptime] || 30 # thoi gian giua moi post
-burstsize = sites[frum][:burstsize] || 200
+
+sleeptime =  SITES[frum][:sleeptime] || 30 # thoi gian giua moi post
+burstsize = SITES[frum][:burstsize] || 200
 bursts = []
 if burst != 0 then
 	Dir["burst/*.txt"].each do |file|
@@ -83,7 +47,7 @@ Dir["topic/*.txt"].each do |file|
 		posts << {:title => title, :desc => desc}
 	end
 end
-site = sites[frum]
+site = SITES[frum]
 
 agent = Mechanize.new do |a|
     a.follow_meta_refresh = true
