@@ -10,7 +10,7 @@ require './sites'
 frum = ARGV[0].to_i || 0# forum muon post
 
 burst = 0
-ispost = false
+ispost = true
 rtime = 3 # so lan post lại nếu bị lỗi
 
 
@@ -52,6 +52,7 @@ site = SITES[frum]
 agent = Mechanize.new do |a|
     a.follow_meta_refresh = true
     a.user_agent_alias = 'Mac Safari'
+    a.idle_timeout = 0.9
 end
 
 

@@ -1,703 +1,2350 @@
-<!DOCTYPE html>
-<html lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
-<head>
-<meta charset="UTF-8"/>
-<title>Posting New Topic - Warez Downloads </title>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<script type="text/javascript">
-//<![CDATA[
-window.__CF=window.__CF||{};window.__CF.AJS={"ga_key":{"ua":"UA-25449932-12","ga_bs":"2"}};
-//]]>
-</script>
-<script type="text/javascript">
-//<![CDATA[
-try{if (!window.CloudFlare) { var CloudFlare=[{verbose:0,p:0,byc:0,owlid:"cf",mirage:{responsive:0,lazy:0},mirage2:0,oracle:0,paths:{cloudflare:"/cdn-cgi/nexp/abv=2497138833/"},atok:"e33f5756c2609f06e3cca4e3fb839718",zone:"warezdownloads.us",rocket:"a",apps:{"ga_key":{"ua":"UA-25449932-12","ga_bs":"2"}}}];document.write('<script type="text/javascript" src="//ajax.cloudflare.com/cdn-cgi/nexp/abv=1573736665/cloudflare.min.js"><'+'\/script>')}}catch(e){};
-//]]>
-</script>
-<link rel="shortcut icon" href='http://www.warezdownloads.us/favicon.ico'/>
-<link rel="image_src" href='http://www.warezdownloads.us/public/style_images/subway/meta_image.png'/>
-<script type='text/rocketscript'>
-		//<![CDATA[
-			jsDebug			= 0; /* Must come before JS includes */
-			DISABLE_AJAX	= parseInt(0); /* Disables ajax requests where text is sent to the DB; helpful for charset issues */
-			inACP			= false;
-			var isRTL		= false;
-			var rtlIe		= '';
-			var rtlFull		= '';
-		//]]>
-		</script>
-<script data-rocketsrc="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/rocketscript"></script>
-<script data-rocketsrc="http://www.warezdownloads.us/links.js file location" type="text/rocketscript"></script>
-<link href='//fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" media='screen,print' href="http://www.warezdownloads.us/public/min/index.php?ipbv=fef8793d674975b13cd17980a1954c55&amp;f=public/style_css/css_66/Badges.css,public/style_css/css_66/SOS_BBCodes.css,public/style_css/css_66/calendar_select.css,public/style_css/css_66/ipb_common.css,public/style_css/css_66/ipb_styles.css,public/style_css/css_66/tb_moods.css,public/style_css/css_66/ipshoutbox.css,public/style_css/css_66/ipb_ckeditor.css"/>
-<!--[if lte IE 7]>
-	<link rel="stylesheet" type="text/css" title='Main' media="screen" href="http://www.warezdownloads.us/public/style_css/css_66/ipb_ie.css" />
-<![endif]-->
-<!--[if lte IE 8]>
-	<style type='text/css'>
-		.ipb_table { table-layout: fixed; }
-		.ipsLayout_content { width: 99.5%; }
-	</style>
-<![endif]-->
-<style type='text/css'>img.bbc_img{max-width:100%!important;}</style>
-<meta property="og:title" content="Posting New Topic"/>
-<meta property="og:site_name" content="Warez Downloads "/>
-<meta property="og:type" content="article"/>
-<meta name="identifier-url" content="Array"/>
-<meta property="og:url" content="Array"/>
-<script type='text/rocketscript' data-rocketsrc="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script type='text/rocketscript'>!window.jQuery && document.write('<script src="http://www.warezdownloads.us/public/style_images/subway/js/jquery.min.js"><\/script>')</script>
-<script type='text/rocketscript' data-rocketsrc="http://www.warezdownloads.us/public/style_images/subway/js/cookie.js"></script>
-<script type='text/rocketscript' data-rocketsrc="http://www.warezdownloads.us/public/style_images/subway/js/ipbforumskins.js"></script>
-<script type="text/rocketscript">
-		jQuery.noConflict();
-
-		jQuery(document).ready(function($){
-
-			var backgroundElements = 'body.cpe, .cpe #logo, .cpe #primary_nav, .cpe #community_app_menu > li.active > a, .cpe #themeToggle';
-		
-			$("#themeEditor #editPattern span").click(function(){
-				var backgroundPattern = $(this).attr("data-pattern");
-				var backgroundRepeat = $(this).attr("data-backgroundRepeat");
-				var backgroundPosition = $(this).attr("data-backgroundPosition");
-				var backgroundAttach = $(this).attr("data-backgroundAttach");
-				var noHeaderImage = $(this).attr("data-noHeaderImage");
-				var backgroundClasses = backgroundRepeat + " " + backgroundPosition + " " + backgroundAttach + " " + noHeaderImage;
-				$(backgroundElements).removeClass("repeat repeat-x repeat-y scroll fixed centerCenter topCenter noHeaderImage").addClass(" " + backgroundClasses).css("background-image", "url(http://www.warezdownloads.us/public/style_images/subway/patterns/" + backgroundPattern + ")");	
-				$.cookie('customPattern',backgroundPattern,{ expires: 365, path: '/'});
-				$.cookie('backgroundClasses',backgroundClasses,{ expires: 365, path: '/'});
-			});
-			
-			if ( ($.cookie('customPattern') != null))	{
-				$(backgroundElements).removeClass("repeat repeat-x repeat-y scroll fixed centerCenter topCenter noHeaderImage").addClass(" " + $.cookie('backgroundClasses')).css("background-image", "url(http://www.warezdownloads.us/public/style_images/subway/patterns/" + $.cookie('customPattern') + ")");
-			}
-			else{
-				$(backgroundElements).addClass("repeat topCenter fixed").css("background-image","url(http://www.warezdownloads.us/public/style_images/subway/patterns/triangles.png)");
-			}
-		
-		});
-		</script>
-<script type='text/rocketscript' data-rocketsrc='http://www.warezdownloads.us/public/min/index.php?ipbv=fef8793d674975b13cd17980a1954c55&amp;g=js'></script>
-<script type='text/rocketscript' data-rocketsrc='http://www.warezdownloads.us/public/min/index.php?ipbv=fef8793d674975b13cd17980a1954c55&amp;charset=UTF-8&amp;f=public/js/ipb.js,cache/lang_cache/1/ipb.lang.js,public/js/ips.hovercard.js,public/js/ips.quickpm.js,public/js/ips.post.js,public/js/ips.facebook.js,public/js/ips.poll.js,public/js/ips.attach.js,public/js/ips.textEditor.js,public/js/ips.tags.js' charset='UTF-8'></script><script type="text/rocketscript" data-rocketsrc="https://www.google.com/jsapi?"></script>
-<script type='text/rocketscript' data-rocketsrc='http://www.warezdownloads.us/public/js/ips.googleSearch.js'></script>
-<script type='text/rocketscript'>
-	if ( typeof ipb.googleSearch == 'object' )
-	{
-		google.load('search', '1');
-		ipb.googleSearch.cseKey = '';
-		ipb.googleSearch.alwaysDefault = true;
-	}
-	else
-	{
-		$( document ).observe( 'dom:loaded', function()
-		{
-			
-			$( 's_google' ).up( '.special' ).remove();
-		});
-	}
-</script>
-<style type="text/css">#googleSearchResultsWrapper{overflow:none;padding-left:10px}#googleSearchResultsWrapper .gs-webResult .gs-visibleUrl-short{display:none;}#googleSearchResultsWrapper .gs-webResult .gs-visibleUrl-long{display:block;}#googleSearchResultsWrapper .gsc-wrapper{overflow:auto;max-height:300px;}#googleSearchPopup_inner{overflow:hidden;}</style>
-<link rel="alternate" type="application/rss+xml" title="Warez Downloads" href="http://www.warezdownloads.us/rss/forums/1-warez-downloads/"/>
-<link rel="alternate" type="application/rss+xml" title="Warez Download Torrents" href="http://www.warezdownloads.us/rss/forums/5-warez-download-torrents/"/>
-<script type='text/rocketscript'>
-	//<![CDATA[
-		/* ---- URLs ---- */
-		ipb.vars['base_url'] 			= 'http://www.warezdownloads.us/index.php?s=275c94b191acbc9b15812962e62df081&';
-		ipb.vars['board_url']			= 'http://www.warezdownloads.us';
-		ipb.vars['img_url'] 			= "http://www.warezdownloads.us/public/style_images/subway";
-		ipb.vars['loading_img'] 		= 'http://www.warezdownloads.us/public/style_images/subway/loading.gif';
-		ipb.vars['active_app']			= 'forums';
-		ipb.vars['upload_url']			= 'http://www.warezdownloads.us/uploads';
-		/* ---- Member ---- */
-		ipb.vars['member_id']			= parseInt( 5812 );
-		ipb.vars['is_supmod']			= parseInt( 0 );
-		ipb.vars['is_admin']			= parseInt( 0 );
-		ipb.vars['secure_hash'] 		= '5c53cc2286b4a41b2c606c53bbafd78f';
-		ipb.vars['session_id']			= '275c94b191acbc9b15812962e62df081';
-		ipb.vars['twitter_id']			= 0;
-		ipb.vars['fb_uid']				= 0;
-		ipb.vars['auto_dst']			= parseInt( 1 );
-		ipb.vars['dst_in_use']			= parseInt( 1 );
-		ipb.vars['is_touch']			= false;
-		ipb.vars['member_group']		= {"g_mem_info":"1"}
-		/* ---- cookies ----- */
-		ipb.vars['cookie_id'] 			= '';
-		ipb.vars['cookie_domain'] 		= '';
-		ipb.vars['cookie_path']			= '/';
-		/* ---- Rate imgs ---- */
-		ipb.vars['rate_img_on']			= 'http://www.warezdownloads.us/public/style_images/subway/star.png';
-		ipb.vars['rate_img_off']		= 'http://www.warezdownloads.us/public/style_images/subway/star_off.png';
-		ipb.vars['rate_img_rated']		= 'http://www.warezdownloads.us/public/style_images/subway/star_rated.png';
-		/* ---- Uploads ---- */
-		ipb.vars['swfupload_swf']		= 'http://www.warezdownloads.us/public/js/3rd_party/swfupload/swfupload.swf';
-		ipb.vars['swfupload_enabled']	= true;
-		ipb.vars['use_swf_upload']		= ( 'flash' == 'flash' ) ? true : false;
-		ipb.vars['swfupload_debug']		= false;
-		/* ---- other ---- */
-		ipb.vars['highlight_color']     = "#ade57a";
-		ipb.vars['charset']				= "UTF-8";
-		ipb.vars['seo_enabled']			= 1;
-		
-		ipb.vars['seo_params']			= {"start":"-","end":"\/","varBlock":"?","varPage":"page-","varSep":"&","varJoin":"="};
-		
-		/* Templates/Language */
-		ipb.templates['inlineMsg']		= "";
-		ipb.templates['ajax_loading'] 	= "<div id='ajax_loading'><img src='http://www.warezdownloads.us/public/style_images/subway/ajax_loading.gif' alt='" + ipb.lang['loading'] + "' /></div>";
-		ipb.templates['close_popup']	= "<img src='http://www.warezdownloads.us/public/style_images/subway/close_popup.png' alt='x' />";
-		ipb.templates['rss_shell']		= new Template("<ul id='rss_menu' class='ipbmenu_content'>#{items}</ul>");
-		ipb.templates['rss_item']		= new Template("<li><a href='#{url}' title='#{title}'>#{title}</a></li>");
-		
-			ipb.templates['m_add_friend']	= new Template("<a href='http://www.warezdownloads.us/index.php?app=members&amp;module=profile&amp;section=friends&amp;do=add&amp;member_id=#{id}' title='Add as Friend' class='ipsButton_secondary'><img src='http://www.warezdownloads.us/public/style_images/subway/user_add.png' alt='Add as Friend' /></a>");
-			ipb.templates['m_rem_friend']	= new Template("<a href='http://www.warezdownloads.us/index.php?app=members&amp;module=profile&amp;section=friends&amp;do=remove&amp;member_id=#{id}' title='Remove Friend' class='ipsButton_secondary'><img src='http://www.warezdownloads.us/public/style_images/subway/user_delete.png' alt='Remove Friend' /></a>");
-		
-		ipb.templates['autocomplete_wrap'] = new Template("<ul id='#{id}' class='ipb_autocomplete' style='width: 250px;'></ul>");
-		ipb.templates['autocomplete_item'] = new Template("<li id='#{id}' data-url='#{url}'><img src='#{img}' alt='' class='ipsUserPhoto ipsUserPhoto_mini' />&nbsp;&nbsp;#{itemvalue}</li>");
-		ipb.templates['page_jump']		= new Template("<div id='#{id}_wrap' class='ipbmenu_content'><h3 class='bar'>Jump to page</h3><p class='ipsPad'><input type='text' class='input_text' id='#{id}_input' size='8' /> <input type='submit' value='Go' class='input_submit add_folder' id='#{id}_submit' /></p></div>");
-		ipb.templates['global_notify'] 	= new Template("<div class='popupWrapper'><div class='popupInner'><div class='ipsPad'>#{message} #{close}</div></div></div>");
-		
-		
-		ipb.templates['header_menu'] 	= new Template("<div id='#{id}' class='ipsHeaderMenu boxShadow'></div>");
-		
-			ipb.global.checkDST();
-		
-		Loader.boot();
-	//]]>
-	</script>
-<script type="text/javascript">
-/* <![CDATA[ */
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-25449932-12']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-})();
-
-(function(b){(function(a){"__CF"in b&&"DJS"in b.__CF?b.__CF.DJS.push(a):"addEventListener"in b?b.addEventListener("load",a,!1):b.attachEvent("onload",a)})(function(){"FB"in b&&"Event"in FB&&"subscribe"in FB.Event&&(FB.Event.subscribe("edge.create",function(a){_gaq.push(["_trackSocial","facebook","like",a])}),FB.Event.subscribe("edge.remove",function(a){_gaq.push(["_trackSocial","facebook","unlike",a])}),FB.Event.subscribe("message.send",function(a){_gaq.push(["_trackSocial","facebook","send",a])}));"twttr"in b&&"events"in twttr&&"bind"in twttr.events&&twttr.events.bind("tweet",function(a){if(a){var b;if(a.target&&a.target.nodeName=="IFRAME")a:{if(a=a.target.src){a=a.split("#")[0].match(/[^?=&]+=([^&]*)?/g);b=0;for(var c;c=a[b];++b)if(c.indexOf("url")===0){b=unescape(c.split("=")[1]);break a}}b=void 0}_gaq.push(["_trackSocial","twitter","tweet",b])}})})})(window);
-/* ]]> */
-</script>
-</head>
-<body id='ipboard_body' class='setRoundedAvatars cpe'>
-<style type='text/css' id='stylePrimary'></style><style type='text/css' id='styleSecondary'></style>
-<p id='content_jump' class='hide'><a id='top'></a><a href='#j_content' title='Jump to content' accesskey='m'>Jump to content</a></p>
-<div id='ipbwrapper' class='wrapper'>
-<div id='user_bar' class='clearfix'>
-<div id='user_navigation' class='logged_in'>
-<ul class='ipsList_inline'>
-<li class='first'><a href="http://www.warezdownloads.us/user/5812-nudufo/" title='Your Profile'>
-<img src='http://www.gravatar.com/avatar/4ca204872eec2aba5458b0b4fc2ac98c?s=100&amp;d=http%3A%2F%2Fwww.warezdownloads.us%2Fpublic%2Fstyle_images%2Fsubway%2Fprofile%2Fdefault_large.png' alt="nudufo&#39;s Photo" class='user_photo'/>
-</a></li>
-<li><a id='user_link' href="http://www.warezdownloads.us/user/5812-nudufo/" title='Your Profile'>Welcome, nudufo &nbsp;<span id='user_link_dd'></span></a></li>
-<li><a data-clicklaunch="getInboxList" id='inbox_link' href='http://www.warezdownloads.us/index.php?app=members&amp;module=messaging' title='Messenger'><img src="http://www.warezdownloads.us/public/style_images/subway/clear.gif" alt=""/>&nbsp;</a></li>
-<li><a data-clicklaunch="getNotificationsList" id='notify_link' href="http://www.warezdownloads.us/index.php?app=core&amp;module=usercp&amp;area=notificationlog" title="Notifications"><img src="http://www.warezdownloads.us/public/style_images/subway/clear.gif" alt=""/>&nbsp;</a></li> 
-<li>
-<script data-rocketsrc="http://www.warezdownloads.us/public/js/tb_moods.js" type="text/rocketscript"/></script>
-<a id='user_moods' href="javascript:void(0);" title='View or update your mood'>&nbsp;</a>
-<div id='user_moods_menucontent' class='ipsHeaderMenu boxShadow short' style='display: none'>
-<h4 class='ipsType_sectiontitle'>Current mood</h4>
-<div class='ipsPad'>
-<img class='__my_mood' src='http://www.warezdownloads.us/public/style_extra/moods/None.png' alt='Current mood: None chosen' title='Current mood: None chosen'/>
-</div>
-<br/>
-<input id='mood_change' class='ipsButton_secondary important clickable' type='button' value='Change mood'/>
-</div>
-</li>
-<li><a href="http://www.warezdownloads.us/index.php?app=core&amp;module=global&amp;section=login&amp;do=logout&amp;k=5c53cc2286b4a41b2c606c53bbafd78f">Sign Out</a></li>
-</ul>
-</div>
- 
-<div id='user_link_menucontent' class='ipsHeaderMenu boxShadow clearfix' style='display: none'>
-<a href="http://www.warezdownloads.us/user/5812-nudufo/" title='Your Profile' class='ipsUserPhotoLink left'>
-<img src='http://www.gravatar.com/avatar/4ca204872eec2aba5458b0b4fc2ac98c?s=100&amp;d=http%3A%2F%2Fwww.warezdownloads.us%2Fpublic%2Fstyle_images%2Fsubway%2Fprofile%2Fdefault_large.png' alt="nudufo&#39;s Photo" class='ipsUserPhoto ipsUserPhoto_medium photo'/>
-</a>
-<div class='left'>
-<form id='statusForm' action='http://www.warezdownloads.us/index.php?app=members&amp;module=profile&amp;section=status&amp;do=new&amp;k=5c53cc2286b4a41b2c606c53bbafd78f&amp;id=5812' method='post'>
-<input type='text' id='statusUpdateGlobal' name='content' class='input_text' style='width: 97%'/><br/>
-<input type='submit' id='statusSubmitGlobal' class='ipsButton_secondary' value='Update'/>
-<br/>
-<hr/>
-</form>
-<ul id='links'>
-<li id='user_profile'><a href='http://www.warezdownloads.us/user/5812-nudufo/' title='Your Profile'>My Profile</a></li>
-<li id='user_ucp'><a href="http://www.warezdownloads.us/index.php?app=core&amp;module=usercp" title="Edit my settings, such as signature, photo and more...">My Settings</a></li>
-<li id='user_content'><a href="http://www.warezdownloads.us/index.php?app=core&amp;module=search&amp;do=user_activity&amp;mid=5812" title="My Content">My Content</a></li>
-<li id='user_likes'><a href='http://www.warezdownloads.us/index.php?app=core&amp;module=search&amp;do=followed' title='Content I Follow'>Content I Follow</a></li>
-<li id='user_friends'><a href='http://www.warezdownloads.us/index.php?app=members&amp;module=profile&amp;section=friends&amp;do=list' title="Manage Friends" class='manage_friends'>Manage Friends</a></li>
-<li id='user_enemies'><a href='http://www.warezdownloads.us/index.php?app=core&amp;module=usercp&amp;tab=core&amp;area=ignoredusers' title="Manage Ignore Prefs" class='manage_enemies'>Manage Ignore Prefs</a></li>
-<li id='user_pm'><a href="http://www.warezdownloads.us/index.php?app=members&module=messaging">Personal Messenger</a></li>
-</ul>
-</div>
-</div>
-<div id='search' class='right'>
-<form action="http://www.warezdownloads.us/index.php?app=core&amp;module=search&amp;do=search&amp;fromMainBar=1" method="post" id='search-box'>
-<fieldset>
-<label for='main_search' class='hide'>Search</label>
-<a href='http://www.warezdownloads.us/index.php?app=core&amp;module=search&amp;search_in=forums' title='Advanced Search' accesskey='4' rel="search" id='adv_search' class='right'>Advanced</a>
-<span id='search_wrap' class='right'>
-<input type='text' id='main_search' name='search_term' class='inactive' size='17' tabindex='6'/>
-<span class='choice ipbmenu clickable' id='search_options' style='display: none'></span>
-<ul id='search_options_menucontent' class='ipbmenu_content ipsPad' style='display: none'>
-<li class='title'><strong>Search section:</strong></li>
-<li class='special'>
-<label for='s_google' title='<strong>Google Site Search</strong>'>
-<input type='radio' name='search_app' value="google" class='input_radio' id='s_google'/> <strong>Google Site Search</strong>
-</label>
-</li>
-<li class='app'><label for='s_forums' title='Forums'><input type='radio' name='search_app' class='input_radio' id='s_forums' value="forums" checked="checked"/>Forums</label></li><li class='app'><label for='s_members' title='Members'><input type='radio' name='search_app' class='input_radio' id='s_members' value="members"/>Members</label></li><li class='app'><label for='s_core' title='Help Files'><input type='radio' name='search_app' class='input_radio' id='s_core' value="core"/>Help Files</label></li>
-</ul>
-<input type='submit' class='submit_input clickable' value='Search'/>
-</span>
-</fieldset>
-</form>
-</div>
-</div>
-<div id='mainContent'>
- 
-<div id='branding' class='clearfix'>
-<div id='themeToggle'>
-<span>Edit Style <img src='http://www.warezdownloads.us/public/style_images/subway/useropts_arrow.png'/></span>
-</div>
- 
-<div id='primary_nav' class='clearfix'>
-<ul class='ipsList_inline' id='community_app_menu'>
-<li id='nav_app_forums' class="left active"><a href='http://www.warezdownloads.us/' title='Go to Forums'>Forums</a></li>
-<li id='nav_app_members' class="left "><a href='http://www.warezdownloads.us/members/' title='Go to Members'>Members</a></li>
-<li id='nav_app_shoutbox' class="left "><a href='http://www.warezdownloads.us/shoutbox/' title='Go to Shoutbox'>Shoutbox</a></li>
-<li id='nav_app_donate' class="left "><a href='http://www.warezdownloads.us/donate/' title='Go to Donate'>Donate</a></li>
-<li id='nav_app_torrents'><a href="http://www.warezdownloads.us/forum/27-warezdownloads-torrent-section/" class='ipbmenu' id='primary_extra'>Torrents</a></li>
-<li id='nav_app_filehosting'><a href="http://www.warezdownloads.us/forum/5-warezdownloads-filehost-section/" class='ipbmenu' id='primary_extra'>File Hosting</a></li>
-<li id='nav_app_community'><a href="http://www.warezdownloads.us/forum/1-all-about-warezdownloads-community/" class='ipbmenu' id='primary_extra'>Community</a></li>
-<li id='nav_app_contactus'><a href="http://www.warezdownloads.us/index.php?app=contactus" class='ipbmenu' id='primary_extra'>Contact Us</a></li>
-</ul>
-</div>
-<div id='logo'>
-<a href='http://www.warezdownloads.us' title='Go to community index' rel="home" accesskey='1'><img src='http://www.warezdownloads.us/public/style_images/66_WDLogoNew.png' alt='Logo'/></a>
-</div>
-</div>
-<div id='themeEditorWrap'><div id='themeEditor'>
-<div id='editSecondary' class='clearfix'>
-<strong>Primary:</strong>
-<span style='background: #59b6dd;' data-secondary="59b6dd">Sky</span>
-<span style='background: #55728b;' data-secondary="55728b">Slate</span>
-<span style='background: #8263d8;' data-secondary="8263d8">Blackcurrant</span>
-<span style='background: #ff74aa;' data-secondary="ff74aa">Watermelon</span>
-<span style='background: #e04547;' data-secondary="e04547">Strawberry</span>
-<span style='background: #ed6949;' data-secondary="ed6949">Orange</span>
-<span style='background: #edbb46;' data-secondary="edbb46">Banana</span>
-<span style='background: #6ab453;' data-secondary="6ab453">Apple</span>
-<span style='background: #4daf7c;' data-secondary="4daf7c">Emerald</span>
-<span style='background: #71665b;' data-secondary="71665b">Chocolate</span>
-<span style='background: #333535;' data-secondary="333535">Marble</span>
-</div>
-<div id='editPrimary' class='clearfix'>
-<strong>Secondary:</strong>
-<span style='background: #59b6dd;' data-primary="59b6dd">Sky</span>
-<span style='background: #55728b;' data-primary="55728b">Slate</span>
-<span style='background: #8263d8;' data-primary="8263d8">Blackcurrant</span>
-<span style='background: #ff74aa;' data-primary="ff74aa">Watermelon</span>
-<span style='background: #e04547;' data-primary="e04547">Strawberry</span>
-<span style='background: #ed6949;' data-primary="ed6949">Orange</span>
-<span style='background: #edbb46;' data-primary="edbb46">Banana</span>
-<span style='background: #6ab453;' data-primary="6ab453">Apple</span>
-<span style='background: #4daf7c;' data-primary="4daf7c">Emerald</span>
-<span style='background: #71665b;' data-primary="71665b">Chocolate</span>
-<span style='background: #333535;' data-primary="333535">Marble</span>
-</div>
-<div id='editPattern' class='clearfix'>
-<strong>Pattern:</strong>
-<span data-pattern="blank.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="scroll">Blank</span>
-<span style='background-image: url("http://www.warezdownloads.us/public/style_images/subway/patterns/wave.png");' data-pattern="wave.png" data-backgroundRepeat="repeat-x" data-backgroundPosition="topCenter" data-backgroundAttach="fixed" class='fitBackground'>Waves</span>
-<span style='background-image: url("http://www.warezdownloads.us/public/style_images/subway/patterns/squares.png");' data-pattern="squares.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="scroll">Squares</span>
-<span style='background-image: url("http://www.warezdownloads.us/public/style_images/subway/patterns/paper.png");' data-pattern="paper.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="scroll">Notes</span>
-<span style='background-image: url("http://www.warezdownloads.us/public/style_images/subway/patterns/shattered.png");' data-pattern="shattered.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="fixed" class='fitBackground'>Sharp</span>
-<span style='background-image: url("http://www.warezdownloads.us/public/style_images/subway/patterns/wood.png");' data-pattern="wood.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="fixed">Wood</span>
-<span style='background-image: url("http://www.warezdownloads.us/public/style_images/subway/patterns/rockface.png");' data-pattern="rockface.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="scroll">Rockface</span>
-<span style='background-image: url("http://www.warezdownloads.us/public/style_images/subway/patterns/leather.png");' data-pattern="leather.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="scroll">Leather</span>
-<span style='background-image: url("http://www.warezdownloads.us/public/style_images/subway/patterns/honey.png");' data-pattern="honey.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="fixed">Honey</span>
-<span style='background-image: url("http://www.warezdownloads.us/public/style_images/subway/patterns/vertical.png");' data-pattern="vertical.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="fixed">Vertical</span>
-<span style='background-image: url("http://www.warezdownloads.us/public/style_images/subway/patterns/triangles.png");' data-pattern="triangles.png" data-backgroundRepeat="repeat" data-backgroundPosition="topCenter" data-backgroundAttach="fixed">Triangles</span>
-</div>
-</div></div>
- 
-<div id='content' class='clearfix'>
-<ul id='socialLinks'>
-<li><a href="http://www.facebook.com/username" title="Visit us on Facebook"><img src="http://www.warezdownloads.us/public/style_images/subway/social_facebook.png" alt=""/></a></li>
-<li><a href="http://twitter.com/#!/username" title="Follow us on Twitter"><img src="http://www.warezdownloads.us/public/style_images/subway/social_twitter.png" alt=""/></a></li>
-<li><a href="http://www.youtube.com/user/username" title="Watch us on YouTube"><img src="http://www.warezdownloads.us/public/style_images/subway/social_youtube.png" alt=""/></a></li>
-<li><a href="http://plus.google.com/username" title="Add us on Google+"><img src="http://www.warezdownloads.us/public/style_images/subway/social_google.png" alt=""/></a></li>
-</ul>
- 
-<div id='secondary_navigation' class='clearfix'>
-<ol class='breadcrumb top ipsList_inline left' id='breadcrumb'>
-<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class='first'>
-<a href='http://www.warezdownloads.us/' itemprop="url">
-<span itemprop="title">Warez Downloads </span>
-</a>
-</li>
-<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-<a href='http://www.warezdownloads.us/forum/5-warezdownloads-filehost-section/' title='Return to WarezDownloads Filehost Section' itemprop="url"><span itemprop="title">WarezDownloads Filehost Section</span></a>
-</li>
-<li itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-<a href='http://www.warezdownloads.us/forum/9-music/' title='Return to Music' itemprop="url"><span itemprop="title">Music</span></a>
-</li>
-</ol>
-<ul id='secondary_links' class='ipsList_inline right'>
-<li><a href='http://www.warezdownloads.us/index.php?app=core&amp;module=search&amp;do=viewNewContent&amp;search_app=forums' accesskey='2'>View New Content</a></li>
-<li><a href="http://www.warezdownloads.us/index.php?app=core&amp;module=global&amp;section=navigation&amp;inapp=forums" rel="quickNavigation" accesskey='9' id='quickNavLaunch' title="Open Quick Navigation"><img src="http://www.warezdownloads.us/public/style_images/subway/icon_quicknav.png" alt=""/></a></li>
-</ul>
-</div>
-<noscript>
-<div class='message error'>
-<strong>Javascript Disabled Detected</strong>
-<p>You currently have javascript disabled. Several functions may not work. Please re-enable javascript to access full functionality.</p>
-</div>
-<br/>
-</noscript>
- 
-<div class='ipsAd'><table border="1">
-<tr>
-<td><center><a href="http://www.increasingseo.com" title="Increase your website SEO">Increasing SEO</a></center></td>
-<td><center><a href="http://www.increasingseo.com" title="Website Traffic">Website Traffic</a></center></td>
-<td><center><font color="brown"><a href="http://www.warezdownloads.us/index.php?app=members&module=messaging&section=send&do=form&fromMemberID=2395">Adspot Available Here!</a></font></center></td>
-</tr>
-</table></div>
- 
-<h2 class='maintitle'>Posting a New Topic in Music</h2><div class='border'>
-<form id='postingform' action='http://www.warezdownloads.us/index.php?' method='post' enctype='multipart/form-data'>
-<div class='ipsBox ipsForm_vertical ipsLayout ipsLayout_withright ipsPostForm clearfix'>
-<div class='ipsBox_container ipsLayout_right ipsPostForm_sidebar'>
-<h3 class='bar'>Poll</h3>
-<fieldset id='poll_fieldset' class='ipsPad' style='display: none'>
-<script type='text/rocketscript'>
-//<![CDATA[
-	ipb.poll.maxQuestions = parseInt( 3 );
-	ipb.poll.maxChoices = parseInt( 20 );
-	ipb.poll.isPublicPoll = parseInt(  );
-	ipb.poll.showOnLoad = 0;
-	ipb.poll.isMod = 0;
-	
-	ipb.poll.questions = $H(
-		{}
-	);
-	
-	ipb.poll.choices = $H(
-		{}
-	);
-	
-	ipb.poll.votes = $H(
-		{}
-	);
-	
-	ipb.poll.multi = $H(
-		
-	);
-	
-	ipb.templates['poll_question'] = 	new Template("<li class='ipsBox_container question' id='question_#{qid}_wrap' style='display: none'>" +
-											"<a href='#' class='ipsPad right' id='remove_question_#{qid}' title='Remove question'><img src='http://www.warezdownloads.us/public/style_images/subway/cross.png' alt='-' /></a>" +
-											"	<ul class='ipsForm ipsForm_vertical question_title ipsPad'>"+
-											"		<li class='ipsField'>" + 
-											" 			<label for='#{qid}' class='ipsType_subtitle'>Question #{qid}</label>"+
-											"			<p class='ipsField_content'>" +
-											" 				<input type='text' class='input_text' id='#{qid}' value='#{value}' size='62' maxlength='254' name='question[#{qid}]' style='max-width: 70%' /></span> <input type='checkbox' class='input_check' value='1' name='multi[#{qid}]' id='multi_#{qid}'/> <label for='multi_#{qid}'><span class='desc lighter'>Allow multiple choice?</span></label>" +
-											"			</p>" +
-											"		</li>"+
-											"	</ul>" + 
-											"	<div class='wrap ipsPad'>" + 
-											"		<ol id='choices_for_#{qid}'></ol>" + 
-											"		<p class='ipsPad poll_control'><a href='#' class='ipsType_small' id='add_choice_#{qid}' title='Add Choice'><img src='http://www.warezdownloads.us/public/style_images/subway/add.png' alt='+' /> Add Another Choice</a></p>" +
-											"	</div>" +
-											"</li>");
-	ipb.templates['poll_choice'] = 		new Template("<li id='poll_#{qid}_#{cid}_wrap' style='display: none'><input type='text' id='poll_#{qid}_#{cid}' name='choice[#{qid}_#{cid}]' class='input_text' value='#{choice}' size='66' maxlength='254' /> <input type='text' id='poll_#{qid}_#{cid}_votes' name='votes[#{qid}_#{cid}]' value='#{votes}' class='input_text' size='5' title='The number of votes this choice has (or starts with, if this is a new poll)' /> <a href='#' id='remove_#{qid}_#{cid}' title='Remove Choice'><span class='cancel' title='Remove Choice'>&times;</span></a></li>");
-//]]>
-</script>
-<div class='post_form poll_form' id='poll_form'>
-<a href='#' id='add_poll' class='ipsType_small'><img src='http://www.warezdownloads.us/public/style_images/subway/bullet_toggle_plus.png'/> Manage Topic Poll</a>
-<div id='poll_popup_content' style='display: none'>
-<div id='poll_wrap'>
-<h3>Poll Manager</h3>
-<div class='ipsBox_container ipsPad'>
-<label for='poll_title'><strong>Poll Title</strong></label>&nbsp;&nbsp;
-<input type='text' class='input_text ipsForm_primary' name='poll_question' id='poll_title' size='40' value=''/>&nbsp;&nbsp;&nbsp;&nbsp;
-<span class='ipsType_small' id='check_public_poll' data-tooltip="If checked, member votes will be made public. (<strong>This cannot be changed once a vote has been made!</strong>)">
-<input type='checkbox' class='input_check' name='poll_view_voters' id='poll_view_voters' value='1'/>
-<label for='poll_view_voters'>Make votes public?</label>
-</span>
-&nbsp;&nbsp;
-</div>
-<div class='ipsBox fixed_inner' id='poll_container_wrap'>
-<ul id='poll_container'></ul>
-</div>
-<div id='poll_footer' class='ipsForm_submit clearfix' style='margin-top: 0;'>
-<a id='add_new_question' class='ipsButton left'><img src='http://www.warezdownloads.us/public/style_images/subway/add.png' alt='+'/> Add Another Question</a> <span class='desc ipsType_smaller left ipsPad' id='poll_stats'></span>
-<a id='close_poll' class='ipsButton no_width right'><img src='http://www.warezdownloads.us/public/style_images/subway/accept.png' alt='x'/> Finished</a>
-</div>
-</div>
-</div>
-</div>
-</fieldset>
-<script type='text/rocketscript'>
-					$('poll_fieldset').show();
-				</script>
-<div class='ipsPostForm_sidebar_block'>
-<h3 class='bar'>Post Options</h3>
-<ul class='ipsPad ipsForm ipsForm_vertical ipsType_small'>
-<li class='ipsField ipsField_checkbox'>
-<input type="checkbox" name="enableemo" class="input_check" value="yes" id='enable_emo' checked="checked"/>
-<p class='ipsField_content'>
-<label for='enable_emo'><strong>Enable</strong> emoticons?</label>
-</p>
-</li>
-<li class='ipsField ipsField_checkbox'>
-<input type="checkbox" name="enablesig" class="input_check" value="yes" id='enable_sig' checked="checked"/>
-<p class='ipsField_content'>
-<label for='enable_sig'><strong>Enable</strong> signature?</label>
-</p>
-</li>
-<li class='ipsField ipsField_checkbox'>
-<input type="checkbox" name="enabletrack" class="input_check" id='enable_track' value="1"/>
-<p class='ipsField_content'>
-<label for='enable_track'><strong>Follow</strong> this topic?</label>
-</p>
-</li>
-</ul>
-</div>
-</div>
-<div class='ipsBox_container ipsLayout_content'>
-<ul class='ipsForm ipsForm_vertical ipsPad'>
-<li class='ipsField ipsField_primary'>
-<label for='topic_title' class='ipsField_title'>Topic Title</label>
-<p class='ipsField_content'>
-<input id='topic_title' class='input_text' type="text" size="60" maxlength="150" name="TopicTitle" value="" tabindex="2"/>
-</p>
-</li>
-<li class='ipsField tag_field'>
-<label for='ipbTags' class='ipsField_title'>Topic Tags</label>
-<p class='ipsField_content'>
-<input type="text" class="input_text" size="50" value="" name="ipsTags" id="ipsTags"/>
-<br/><span class='desc lighter'>Select a maximum of 10 tags</span>
-<script type="text/rocketscript">
-	$( "ipsTags" ).tagify( {"isOpenSystem":true,"isEnabled":true,"minLen":2,"maxLen":30,"minTags":0,"maxTags":10,"predefinedTags":null,"fieldId":"ipsTags","prefixesEnabled":false,"meta_app":"forums","meta_area":"topics","meta_parent_id":9,"lang":{"tag_add_link":"Add a tag","tip_text":"Type tags separated by commas..."},"forceLowercase":"0","existingTags":false} );
-</script></p>
-</li>
-<li class='ipsField ipsField_editor'>
-<script type="text/rocketscript">
-IPS_extra_plugins = [];
-</script>
-<script type="text/rocketscript" data-rocketsrc="http://www.warezdownloads.us/public/js/3rd_party/ckeditor/ckeditor.js"></script>
-<script type="text/rocketscript">
-		/* Dynamic items */
-		CKEDITOR.config.IPS_BBCODE          = {"hide":{"id":"42","title":"(TB) Hide Content","desc":"Hides the content between the tags if the members hasn't replied to the topic","tag":"hide","useoption":"0","example":"[hide]Hidden text until you reply![/hide]","switch_option":"0","menu_option_text":"","menu_content_text":"Write here the text you want to hide:","single_tag":"0","optional_option":"0","aliases":{"0":"hide_me"},"image":"hide.png"},"acronym":{"id":"8","title":"Acronym","desc":"Allows you to make an acronym that will display a description when moused over","tag":"acronym","useoption":"1","example":"[acronym='Laugh Out Loud']lol[/acronym]","switch_option":"0","menu_option_text":"Enter the description for this acronym (EG: Laugh Out Loud)","menu_content_text":"Enter the acronym (EG: lol)","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":""},"background":{"id":"27","title":"Background-color","desc":"Adds a background color behind the text","tag":"background","useoption":"1","example":"[background=red]Red background behind this text[/background]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":""},"code":{"id":"13","title":"Code","desc":"Allows you to enter general code","tag":"code","useoption":"0","example":"[code]$text = 'Some long code here';[/code]","switch_option":"0","menu_option_text":"","menu_content_text":"Code","single_tag":"0","optional_option":"0","aliases":{"0":"codebox"},"image":""},"hr":{"id":"12","title":"Horizontal Rule","desc":"Adds a horizontal rule to separate text","tag":"hr","useoption":"0","example":"[hr]","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"1","optional_option":"0","aliases":{"0":""},"image":""},"html":{"id":"15","title":"HTML Code","desc":"Allows you to enter formatted/syntax-highlighted HTML code","tag":"html","useoption":"0","example":"[html]<div class='outer'>\n  <p>Hello World</p>\n </div>[/html]","switch_option":"0","menu_option_text":"","menu_content_text":"HTML Code","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":""},"info":{"id":"39","title":"Information","desc":"","tag":"info","useoption":"1","example":"[info=Title]Content[/info]","switch_option":"0","menu_option_text":"Title","menu_content_text":"Content","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":"infoibe.png "},"media":{"id":"32","title":"Media","desc":"Allows a user to post media content from certain common media sites","tag":"media","useoption":"1","example":"[media]http://www.youtube.com/watch?v=YqqLx-2vUr0[/media]","switch_option":"0","menu_option_text":"Dimensions (Flash Only)","menu_content_text":"Media URL","single_tag":"0","optional_option":"1","aliases":{"0":"video","1":"movie","2":"flash","3":"blogmedia","4":"youtube"},"image":""},"member":{"id":"31","title":"Member","desc":"Given a member name, a link is automatically generated to the member's profile","tag":"member","useoption":"1","example":"[member=admin] runs this site.","switch_option":"0","menu_option_text":"Member Name","menu_content_text":"","single_tag":"1","optional_option":"0","aliases":{"0":""},"image":""},"page":{"id":"43","title":"Multi-Page Articles","desc":"This tag can be used to create multi-page articles.  Page links are automatically added based on the number of times this tag is used, and the content is hidden until you reach the specified \"page\".","tag":"page","useoption":"0","example":"Content 1\n[page]\nContent 2\n[page]\nContent 3","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"1","optional_option":"0","aliases":{"0":""},"image":""},"php":{"id":"14","title":"PHP Code","desc":"Allows you to enter PHP code into a formatted/highlighted syntax box","tag":"php","useoption":"0","example":"[php]$variable = true;\n\nprint_r($variable);[/php]","switch_option":"0","menu_option_text":"","menu_content_text":"PHP Code","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":""},"post":{"id":"6","title":"Post Link","desc":"This tag provides an easy way to link to a post.","tag":"post","useoption":"1","example":"[post=1]Click me![/post]","switch_option":"0","menu_option_text":"Enter the Post ID","menu_content_text":"Enter the title for this link","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":""},"spoiler":{"id":"7","title":"Spoiler","desc":"Spoiler tag","tag":"spoiler","useoption":"0","example":"[spoiler]Some hidden text[/spoiler]","switch_option":"0","menu_option_text":"","menu_content_text":"Enter the text to be masked","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":""},"sql":{"id":"16","title":"SQL Code","desc":"Allows you to enter formatted/syntax-highlighted SQL code","tag":"sql","useoption":"0","example":"[sql]SELECT p.*, t.* FROM posts p LEFT JOIN topics t ON t.tid=p.topic_id WHERE t.tid=7[/sql]","switch_option":"0","menu_option_text":"","menu_content_text":"SQL Commands","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":""},"success":{"id":"40","title":"Success","desc":"Success BBCode.","tag":"success","useoption":"1","example":"[success=Title]Content[/success]","switch_option":"0","menu_option_text":"Title","menu_content_text":"Content","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":"infoibe.png"},"test":{"id":"44","title":"test","desc":"test","tag":"test","useoption":"0","example":"test","switch_option":"0","menu_option_text":"","menu_content_text":"","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":""},"topic":{"id":"5","title":"Topic Link","desc":"This tag provides an easy way to link to a topic","tag":"topic","useoption":"1","example":"[topic=1]Click me![/topic]","switch_option":"0","menu_option_text":"Enter the topic ID","menu_content_text":"Enter the title for this link","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":""},"twitter":{"id":"33","title":"Twitter","desc":"A tag to link to a user's twitter account","tag":"twitter","useoption":"0","example":"[twitter]userName[/twitter]","switch_option":"0","menu_option_text":"","menu_content_text":"Twitter Username","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":"twitter.png"},"xml":{"id":"17","title":"XML Code","desc":"Allows you to enter formatted/syntax-highlighted XML code","tag":"xml","useoption":"0","example":"[xml]<outer>\n <inner>\n  <tag param='1'>Test</tag>\n </inner>\n</outer>[/xml]","switch_option":"0","menu_option_text":"","menu_content_text":"XML Code","single_tag":"0","optional_option":"0","aliases":{"0":""},"image":""}};
-		CKEDITOR.config.IPS_BBCODE_IMG_URL  = "http://www.warezdownloads.us/public/style_extra/bbcode_icons";
-		CKEDITOR.config.IPS_BBCODE_BUTTONS  = [];
-		
-		/* Has to go before config load */
-		var IPS_smiley_path			= "http://www.warezdownloads.us/public/style_emoticons/default/";
-		var IPS_smiles       		= {"total":45,"count":45,"emoticons":[{"src":"happy.png","text":":)"},{"src":"cool.png","text":":cool:"},{"src":"joyful.png","text":":D"},{"src":"confused.png","text":":\/"},{"src":"woot.png","text":"=)"},{"src":"rage.png","text":":rage:"},{"src":"tongue.png","text":":P"},{"src":"wink.png","text":";)"},{"src":"O_o.png","text":"O_o"},{"src":"bored.png","text":":bored:"},{"src":"brb.png","text":"brb"},{"src":"rolleyes.png","text":":rolleyes:"},{"src":"inlove.png","text":":inlove:"},{"src":"ROFL.png","text":":ROFL:"},{"src":"cat.png","text":":cat:"},{"src":"android.png","text":":android:"},{"src":"bookworm.png","text":":bookworm:"},{"src":"spam.png","text":":spam:"},{"src":"hungry.png","text":":hungry:"},{"src":"devilish.png","text":":devilish:"},{"src":"angelic.png","text":":angelic:"},{"src":"biggrin.png","text":":biggrin:"},{"src":"censored.png","text":":censored:"},{"src":"hungover.png","text":":hungover:"},{"src":"wub.png","text":":wub:"},{"src":"stop.png","text":":stop:"},{"src":"thumbsup.png","text":":thumbsup:"},{"src":"thumbsdown.png","text":":thumbsdown:"},{"src":"arghh.png","text":":("},{"src":"watching.png","text":":watching:"},{"src":"frown.png","text":":frown:"},{"src":"eek.png","text":":eek:"},{"src":"artist.png","text":":artist:"},{"src":"greedy.png","text":":greedy:"},{"src":"angry.png","text":":angry:"},{"src":"unsure.png","text":":S"},{"src":"huh.png","text":":huh:"},{"src":"crigon_04.gif","text":":crigon_04:"},{"src":"help.gif","text":":help:"},{"src":"neo.gif","text":":neo:"},{"src":"yahoo.gif","text":":yahoo:"},{"src":"drag_06.gif","text":":pirate:"},{"src":"spam_light_en.gif","text":":spam_light_en:"},{"src":"tatice_03.gif","text":"lol"},{"src":"viannen_01.gif","text":":wel:"}]};
-		var IPS_remove_plugins      = [];
-		var IPS_hide_contextMenu    = 0;
-		var IPS_rclick_contextMenu  = 0;
-		
-		/* Load our configuration */
-		CKEDITOR.config.customConfig  = 'http://www.warezdownloads.us/public/js/3rd_party/ckeditor/ips_config.js';
-	</script>
-<input type='hidden' name='isRte' id='isRte_editor_51d775f4ea90a' value='0'/>
-<input type='hidden' name='noSmilies' id='noSmilies_editor_51d775f4ea90a' value='0'/>
-<textarea id="editor_51d775f4ea90a" name="Post" class='ipsEditor_textarea input_text'></textarea>
-<p class='desc ipsPad' style='display: none' id='editor_html_message_editor_51d775f4ea90a'></p>
-<script type="text/rocketscript">
-		ipb.textEditor.initialize('editor_51d775f4ea90a', { type: 'full',
-																height: 350,
-																minimize: 0,
-																bypassCKEditor: 0,
-																delayInit: 0,
-																isHtml: 0,
-																isRte: 0,
-																noSmilies: 0,
-																isTypingCallBack: '',
-																ips_AutoSaveKey: 'cff1f513d757fa7d48aafb32214d59d0',
-												                ips_AutoSaveData: [] } );
-	</script>
-</li>
-</ul>
-<fieldset class='attachments'>
-<script type='text/rocketscript' data-rocketsrc='http://www.warezdownloads.us/public/js/3rd_party/swfupload/swfupload.js'></script>
-<script type='text/rocketscript' data-rocketsrc='http://www.warezdownloads.us/public/js/3rd_party/swfupload/plugins/swfupload.swfobject.js'></script>
-<script type='text/rocketscript' data-rocketsrc='http://www.warezdownloads.us/public/js/3rd_party/swfupload/plugins/swfupload.cookies.js'></script>
-<script type='text/rocketscript' data-rocketsrc='http://www.warezdownloads.us/public/js/3rd_party/swfupload/plugins/swfupload.queue.js'></script>
-<script type='text/rocketscript'>
-//<![CDATA[
-	ipb.lang['used_space'] = "You can upload up to <strong>[left]</strong> of files (Max. single file size: <strong>20MB</strong>)";
-//]]>
-</script>
-<div class='ipsPad'>
-<div id='attach_error_box' class='message error' style='display:none'></div>
-<input type='file' id='nojs_attach_0_1' class='input_upload' name='FILE_UPLOAD' tabindex='1'/>
-<input type='file' id='nojs_attach_0_2' class='input_upload' name='FILE_UPLOAD' tabindex='1'/>
-<ul id='attachments'><li style='display: none'></li></ul>
-<div class='attach_controls'>
-<h2 class='ipsType_subtitle'>Attach Files</h2>
-<span id='buttonPlaceholder'></span>
-<input type='button' id='add_files_attach_0' class='ipsType_small ipsButton_secondary attach_button' value='Attach This File' style='display: none; clear: both' tabindex='-1'/>
-&nbsp;&nbsp;
-<span class='desc ipsType_small' id='space_info_attach_0'>
-Max. single file size: <strong>20MB</strong>
-</span>
-<p class='desc lighter ipsType_smaller' id='help_msg'>
-Trouble uploading? <a href='#' data-switch='default' title='' tabindex='1'>Try our basic uploader</a>
-</p>
-</div>
-</div>
-<script type='text/rocketscript'>
-//<![CDATA[
-	ipb.delegate.register("[data-switch]", function(e, elem){
-		ipb.attach.switchUploadType( elem.readAttribute('data-switch') );
-	});
-	
-	// Show the button and info
-	$('add_files_attach_0').show();
-	$('space_info_attach_0').show();
-	
-	var useType = 'default';
-	var uploadURL = ipb.vars['base_url'] + "app=core&module=attach&section=attach&do=attachiFrame&attach_rel_module=post&attach_rel_id=0&attach_post_key=d3cef5bf5ee600672d8661c6470b7ec6&forum_id=9&attach_id=attach_0&fetch_all=1";
-	if ( ipb.vars['use_swf_upload'] && ( jimAuld.utils.flashsniffer.meetsMinVersion( 9 ) && ( ipb.vars['swfupload_enabled'] ) ) )
-	{
-		useType = 'swf';
-		var uploadURL = ipb.vars['base_url'] + "app=core&module=attach&section=attach&do=attach_upload_process&attach_rel_module=post&attach_rel_id=0&attach_post_key=d3cef5bf5ee600672d8661c6470b7ec6&forum_id=9&_nsc=1";
-	}
-	
-	ipb.attach.template = "<li id='ali_[id]' class='attach_row' style='display: none'><div><h4 class='attach_name'>[name]</h4><p class='info'>[info]</p><span class='img_holder'></span><p class='progress_bar'><span style='width: 0%'>0%</span></p><p class='links'><a href='#' class='add_to_post' title='Adds a placeholder tag for the attachment in the post' tabindex='-1'>Add to Post</a> | <a href='#' class='cancel delete' title='Delete this attachment' tabindex='-1'>Delete</a></p></div></li>"; 
-	document.observe('dom:loaded', function(){
-		ipb.attach.registerUploader( 'attach_0', useType, 'attachments', {
-			'upload_url': uploadURL,
-			'attach_rel_module': "post",
-			'attach_rel_id': "0",
-			'attach_post_key': "d3cef5bf5ee600672d8661c6470b7ec6",
-			'forum_id': "9",
-			'file_size_limit': "20971520"
-		} )});
-//]]>
-</script>
-</fieldset>
-</div>
-<div class='ipsBox_container ipsMargin_top ipsPad_top'>
-<ul class='ipsPad ipsForm_vertical ipsList_inline ipsType_small clearfix'>
-<li class='ipsField ipsField_checkbox left' style='margin-right: 40px'>
-<input type="checkbox" name="share_x_facebook" class="input_check _share_x_" value="yes" id='share_x_facebook'/> &nbsp;&nbsp;
-<span class='' data-tooltip='Checking this box will share with Facebook once saved'>
-<label for='share_x_facebook'> <img src="http://www.warezdownloads.us/public/style_extra/sharelinks/facebook.png" style='vertical-align:top' alt=''/> &nbsp; Share with <strong>Facebook</strong></label>
-</span>
-</li>
-<li class='ipsField left' style='display: none' id='_save_share'>
-<a href='#' data-clicklaunch='saveSocialShareDefaults' class='ipsType_smaller'>Set as my default sharing choice</a>
-</li>
-</ul>
-</div>
-<script type="text/rocketscript">
-		ipb.delegate.register('._share_x_', function(e, elem){
-			if( $('_save_share') && !$('_save_share').visible() ){
-				new Effect.Appear( $('_save_share'), { duration: 0.3 } );
-			}
-		});
-		ipb.delegate.register('#share_x_facebook', ipb.facebook.connectNow);
-		ipb.facebook.load(283500718373373);
-	</script>
-</div>
-<fieldset class='submit clear'>
-<input type='hidden' name='st' value='0'/>
-<input type='hidden' name='app' value='forums'/>
-<input type='hidden' name='module' value='post'/>
-<input type='hidden' name='section' value='post'/>
-<input type='hidden' name='do' value='new_post_do'/>
-<input type='hidden' name='s' value='275c94b191acbc9b15812962e62df081'/>
-<input type='hidden' name='p' value='0'/>
-<input type='hidden' name='t' value=''/>
-<input type='hidden' name='f' value='9'/>
-<input type='hidden' name='parent_id' value='0'/>
-<input type='hidden' name='attach_post_key' value='d3cef5bf5ee600672d8661c6470b7ec6'/>
-<input type='hidden' name='auth_key' value='5c53cc2286b4a41b2c606c53bbafd78f'/>
-<input type='hidden' name='removeattachid' value='0'/>
-<input type='hidden' name='return' value=''/>
-<input type='hidden' name='_from' value=''/>
-<input type="submit" name="dosubmit" value="Post New Topic" tabindex="50" class="input_submit" accesskey="s"/>&nbsp;
-<input type="submit" name="preview" value="Preview Post" class="input_submit alt"/>
-or
-<a href='http://www.warezdownloads.us/forum/9-music/' title='Cancel' class='cancel' tabindex='52'>Cancel</a>
-</fieldset>
-</form></div>
-<div class='ipsAd'><table border="1">
-<tr>
-<td><center><a href="http://www.increasingseo.com" title="Increase your website SEO">Increasing SEO</a></center></td>
-<td><center><a href="http://www.increasingseo.com" title="Website Traffic">Website Traffic</a></center></td>
-<td><center><font color="brown"><a href="http://www.warezdownloads.us/index.php?app=members&module=messaging&section=send&do=form&fromMemberID=2395">Adspot Available Here!</a></font></center></td>
-</tr>
-</table></div>
-<ol class='breadcrumb bottom ipsList_inline left clearfix clear'>
-<li><a href='http://www.warezdownloads.us/'>Warez Downloads </a></li>
-<li><span class='nav_sep'>&rarr;</span> <a href='http://www.warezdownloads.us/forum/5-warezdownloads-filehost-section/' title='Return to WarezDownloads Filehost Section'><span>WarezDownloads Filehost Section</span></a></li>
-<li><span class='nav_sep'>&rarr;</span> <a href='http://www.warezdownloads.us/forum/9-music/' title='Return to Music'><span>Music</span></a></li>
-</ol>
-</div>
-</div>  
- 
-<div id='footer_utilities' class='clearfix clear'>
-<a rel="nofollow" href='#top' id='backtotop' title='Go to top'><img src='http://www.warezdownloads.us/public/style_images/subway/top.png' alt=''/></a>
-<div class='skin_link'></div>
- 
-<p id='copyright'>Licensed to: WarezDownloads</p>
- 
-<ul class='ipsList_inline left'>
-<li>
-<img src='http://www.warezdownloads.us/public/style_images/subway/feed.png' alt='RSS Feed' id='rss_feed' class='clickable'/>
-</li>
-<li>
-<a rel="nofollow" id='new_skin' href='#'>Change Theme</a>
-<ul id='new_skin_menucontent' class='ipbmenu_content with_checks' style='display: none'>
-<li>
-<a href='#' data-clicklaunch='changeSkin' data-skinid='40'>WD v1.0</a>
-</li>
-<li class='selected'>
-<a href='#' data-clicklaunch='changeSkin' data-skinid='66'>Subway (Import)</a>
-</li>
-</ul>
-</li>
-<li>
-<a rel="nofollow" id='mark_all_read' href="http://www.warezdownloads.us/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=all&amp;k=5c53cc2286b4a41b2c606c53bbafd78f" title='Mark all as read'>Mark Community Read</a>
-<ul id='mark_all_read_menucontent' class='ipbmenu_content' style='display: none'>
-<li>
-</li>
-<li>
-<a href="http://www.warezdownloads.us/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=app&amp;markApp=forums&amp;k=5c53cc2286b4a41b2c606c53bbafd78f">Forums</a>
-</li>
-<li>
-<a href="http://www.warezdownloads.us/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=app&amp;markApp=members&amp;k=5c53cc2286b4a41b2c606c53bbafd78f">Members</a>
-</li>
-<li>
-<a href="http://www.warezdownloads.us/index.php?app=forums&amp;module=forums&amp;section=markasread&amp;marktype=all&amp;k=5c53cc2286b4a41b2c606c53bbafd78f"><strong>Mark all as read</strong></a>
-</li>
-</ul>
-</li>
-<li><a rel="nofollow" href='http://www.warezdownloads.us/privacypolicy/'>Privacy Policy</a></li>
-<li>
-<a href="http://www.warezdownloads.us/index.php?app=core&amp;module=help" title='View help' rel="help" accesskey='6'>Help</a>
-</li>
-</ul>
-</div>
-<center>
-<a href="http://ddlrank.com/" title="Where to upload files?">Where to upload files?</a>
-</center>
-<div id='stats_div'><div><img src='http://www.warezdownloads.us/index.php?app=core&amp;module=task' alt='' style='border: 0px;height:1px;width:1px;'/></div></div>
-<script type="text/rocketscript">
-					ipb.global.lightBoxIsOff();
-				</script>
-<script data-rocketsrc="http://www.warezdownloads.us/public/js/forumcore.anonymizer.js" type="text/rocketscript"></script>
-<script type="text/rocketscript"><!--
-ignore_links = "";
-link_service = "http://www.adf.ly/1822028/";
-forumcore_anonymizer_start();
-//--></script>
- 
-</div>
-</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="rtl" lang="ar">
+<head>
+<link href="7kaya-free/css/style.css" rel="stylesheet" type="text/css" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1256" />
+<meta name="generator" content="vBulletin 3.8.3" />
+
+<meta name="keywords" content="„‰ œÌ«  ⁄„—Ì , „‰ œÏ ⁄„—Ì , «Ì«„ ⁄„—Ì , ⁄„—Ì" />
+<meta name="description" content="" />
+
+
+<script type="text/javascript">var bburl = '';</script><script type="text/javascript" src="mwaextraedit2/mwaextraedit2settings.js"></script> <script type="text/javascript" src="mwaextraedit2/gradient.js"></script> <script type="text/javascript" src="mwaextraedit2/poem.js"></script> <script type="text/javascript" src="mwaextraedit2/read.js"></script> <script type="text/javascript" src="mwaextraedit2/type.js"></script> <script type="text/javascript" src="mwaextraedit2/marq.js"></script> <script language="JavaScript1.2">
+function flashit(){
+if (!document.all)
+return
+if (myexample.style.borderColor=="blue")
+myexample.style.borderColor="red"
+else
+myexample.style.borderColor="blue"
+}
+setInterval("flashit()", 400)
+</script> <script src="mwaextraedit2/rainbow.js"></script> <!-- CSS Stylesheet -->
+<style type="text/css" id="vbulletin_css">
+/**
+* vBulletin 3.8.3 CSS
+* Style: '” «Ì· ⁄„—Ì «·ÃœÌœ 2013'; Style ID: 54
+*/
+body
+{
+	color: #000000;
+	font: 10pt tahoma;
+}
+a:link, body_alink
+{
+	color: #450008;
+	text-decoration: none;
+}
+a:visited, body_avisited
+{
+	color: #450008;
+	text-decoration: none;
+}
+a:hover, a:active, body_ahover
+{
+	color: #450008;
+	text-decoration: none;
+}
+.page
+{
+	color: #000000;
+}
+td, th, p, li
+{
+	font: 10pt tahoma;
+}
+.tborder
+{
+	background: #f3b0b8;
+	color: #000000;
+}
+.tcat
+{
+	background: url(7kaya-free/images/tcat.png) repeat;
+	color: #FFFFFF;
+	font: bold 14px tahoma;
+	text-align:center;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.thead
+{
+	background: #fec6ff url(7kaya-free/images/thead.png) repeat-x top left;
+	color: #450008;
+	font: 12px tahoma;
+}
+.thead a:link, .thead_alink
+{
+	color: #450008;
+	text-decoration: none;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #450008;
+	text-decoration: none;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #450008;
+	text-decoration: none;
+}
+.tfoot
+{
+	background: url(7kaya-free/images/tcat.png) repeat;
+	color: #FFF;
+	font: 12px tahoma;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.alt1, .alt1Active
+{
+	background: #FFD4D9;
+	color: #000000;
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink
+{
+	color: #450008;
+	text-decoration: none;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited
+{
+	color: #450008;
+	text-decoration: none;
+}
+.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover
+{
+	color: #450008;
+	text-decoration: none;
+}
+.alt2, .alt2Active
+{
+	background: #ffdde1;
+	color: #000000;
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink
+{
+	color: #450008;
+	text-decoration: none;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited
+{
+	color: #450008;
+	text-decoration: none;
+}
+.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover
+{
+	color: #450008;
+	text-decoration: none;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #ffdde1;
+	color: #000000;
+	font: 12px tahoma;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #450008;
+	text-decoration: none;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #450008;
+	text-decoration: none;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #450008;
+	text-decoration: none;
+}
+textarea, .bginput
+{
+	font: 12px tahoma;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 12px;
+	font-family: tahoma;
+}
+.button
+{
+	font: 12px tahoma;
+}
+select
+{
+	font: 12px tahoma;
+}
+option, optgroup
+{
+	font-size: 12px;
+	font-family: tahoma;
+}
+.smallfont
+{
+	font: 12px tahoma;
+}
+.time
+{
+	color: #450008;
+}
+.navbar
+{
+	font: 12px tahoma;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #3E5C92;
+	color: #E0E0F6;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #ffdde1 url(7kaya-free/images/alt.png) repeat-x top left;
+	color: #000000;
+	padding: 10px; border: 1px solid #f3b0b8;
+}
+.panelsurround
+{
+	background: #FFD4D9;
+	color: #000000;
+}
+legend
+{
+	color: #450008;
+	font: 12px tahoma;
+}
+.vbmenu_control
+{
+	background: url(7kaya-free/images/tcat.png) repeat;
+	color: #FFFFFF;
+	font: bold 12px tahoma;
+	padding: 6px;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_popup
+{
+	background: #ffdde1 url(7kaya-free/images/alt.png) repeat-x top left;
+	color: #000000;
+	border: 1px solid #f3b0b8;
+}
+.vbmenu_option
+{
+	background: #ffdde1 url(7kaya-free/images/alt.png) repeat-x top left;
+	color: #000000;
+	font: 12px tahoma;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #450008;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #450008;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #450008;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: url(7kaya-free/images/tcat.png) repeat;
+	color: #FFFFFF;
+	font: 12px tahoma;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #FFF;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #FFF;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+fieldset {border-radius: 5px 5px 5px 5px; border: 1px solid #f3b0b8; padding: 8px;}    
+.ever {text-align: center;}
+.pope {border-color: #D8D8D8; border-style: solid; border-width: 1px 5px; text-align: center;}
+</style>
+<link rel="stylesheet" type="text/css" href="clientscript/vbulletin_important.css?v=383" />
+
+
+<!-- Editor Styles -->
+<style type="text/css" id="vbulletin_editor_css_dynamic">
+<!--
+@import url("clientscript/vbulletin_editor.css?v=383");
+
+.vBulletin_editor {
+	background: #fec6ff url(7kaya-free/images/thead.png) repeat-x top left;
+	padding: 6px;
+}
+.imagebutton {
+	background: #fec6ff url(7kaya-free/images/thead.png) repeat-x top left;
+	color: #000000;
+	padding: 1px;
+	border: none;
+}
+.ocolor, .ofont, .osize, .osmilie, .osyscoloar, .smilietitle {
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #FFFFFF;
+}
+.popup_pickbutton {
+	border: 1px solid #FFFFFF;
+}
+.popup_feedback {
+	background: #FFFFFF;
+	color: #000000;
+	border-left: 1px solid #FFFFFF;
+}
+.popupwindow {
+	background: #FFFFFF;
+}
+#fontOut, #sizeOut, .popup_feedback div {
+	background: #FFFFFF;
+	color: #000000;
+}
+.alt_pickbutton {
+	border-right: 1px solid #fec6ff url(7kaya-free/images/thead.png) repeat-x top left;
+}
+.popup_feedback input, .popup_feedback div
+{
+	border: 0px solid;
+	padding: 0px 2px 0px 2px;
+	cursor: default;
+	font: 11px tahoma;
+	overflow: hidden;
+}
+-->
+</style>
+<!-- / Editor Styles -->
+
+<!-- / CSS Stylesheet -->
+
+<script type="text/javascript" src="clientscript/yui/yahoo-dom-event/yahoo-dom-event.js?v=383"></script>
+<script type="text/javascript" src="clientscript/yui/connection/connection-min.js?v=383"></script>
+<script type="text/javascript">
+<!--
+var SESSIONURL = "";
+var SECURITYTOKEN = "1373097716-d4fd1cb61f89f60403008a70cbd7ef2bc48b63bc";
+var IMGDIR_MISC = "7kaya-free/misc";
+var vb_disable_ajax = parseInt("0", 10);
+// -->
+</script>
+<script type="text/javascript" src="clientscript/vbulletin_global.js?v=383"></script>
+<script type="text/javascript" src="clientscript/vbulletin_menu.js?v=383"></script>
+
+
+	<link rel="alternate" type="application/rss+xml" title="„‰ œÌ«  ⁄„—Ì RSS Feed" href="external.php?type=RSS2" />
+	
+<link rel="stylesheet" href="ugc.css" type="text/css" /><style type="text/css">
+.img {
+margin: 10px;
+ 
+max-width: 650px;
+width: expression(this.width > 650 ? 650: true);
+} 
+</style>
+<title>„‰ œÌ«  ⁄„—Ì - ≈‰‘«¡ „Ê÷Ê⁄ ÃœÌœ</title>
+</head>
+<body>
+<!-- logo -->
+<a name="top"></a>
+<div id="header">
+	<div class="center">
+    	<div class="index">
+        	<a href="/"></a>
+        </div>
+        <div class="reg">
+        	<a href="register.php"></a>
+        </div>
+        <div class="search">
+        	<a href="search.php"></a>
+        </div>
+    </div>
+</div>
+<!-- /logo -->
+
+<!-- content table -->
+<!-- open content container -->
+
+<div align="center">
+	<div class="page" style="width:100%; text-align:right">
+		<div style="padding:0px 25px 0px 25px" align="right">
+
+
+
+
+<script type="text/javascript" src="http://apis.google.com/js/plusone.js"></script>
+
+
+
+
+<!-- »œ«Ì… ﬂÊœ «‰  €Ì— „”Ã· -->
+
+<!-- ‰Â«Ì… ﬂÊœ «‰  €Ì— „”Ã· -->
+
+
+
+
+<p align="center"><font size="6">
+<a rel="nofollow" target="_blank" href="http://www.eyoonk.com/"><b><font color="#FF0000">«÷€ÿ Â‰« ·œŒÊ· «·‘« </font></b>
+</a></font></p>
+
+
+<p align="center"><b><span lang="ar-ye">
+<a rel="nofollow" href="http://vb.7mry.com/search.php?do=getnew">
+<font size="5" face="Arial Black" color="#FF0000">«÷€ÿ Â‰« ·„‘«Âœ… «Œ— «·„‘«—ﬂ«  
+«·ÃœÌœ… »«·„‰ œÏ</font></a></span></b></p>
+ 
+                                                 <script type="text/javascript">
+                                                 var rainbowcount = 0;
+                                                 var glitcount=0;
+                                                 var glitstring='';
+                                                 var shimmercount=0;
+                                                 var shimmerstring='';
+                                                 var ie4 = false;
+                                                         if(document.all) {
+                                                                 ie4 = true;
+                                                         }
+                                                         function setContent(name, value) {
+                                                                 var d;
+                                                                 if (ie4) {
+                                                                         d = document.all[name];
+                                                                 } else {
+                                                                         d = document.getElementById(name);
+                                                                 }
+                                                                 d.innerHTML = value;
+                                                         }
+
+                                                         function getContent(name) {
+                                                                 var d;
+                                                                 if (ie4) {
+                                                                         d = document.all[name];
+                                                                 } else {
+                                                                         d = document.getElementById(name);
+                                                                 }
+                                                                 return d.innerHTML;
+                                                         }
+
+                                                         function setColor(name, value) {
+                                                                 var d;
+                                                                 if (ie4) {
+                                                                         d = document.all[name];
+                                                                 } else {
+                                                                         d = document.getElementById(name);
+                                                                 }
+                                                                 d.style.color = value;
+                                                         }
+
+                                                         function getColor(name) {
+                                                                 var d;
+                                                                 if (ie4) {
+                                                                         d = document.all[name];
+                                                                 } else {
+                                                                         d = document.getElementById(name);
+                                                                 }
+                                                                 return d.style.color;
+                                                         }
+                                                                 function toSpans(span) {
+                                                                   var str=span.firstChild.data;
+                                                                   var a=str.length;
+                                                                   span.removeChild(span.firstChild);
+                                                                   for(var i=0; i<a; i++) {
+                                                                         var theSpan=document.createElement("SPAN");
+                                                                         theSpan.appendChild(document.createTextNode(str.charAt(i)));
+                                                                         span.appendChild(theSpan);
+                                                                   }
+                                                                 }
+                                                         function glitter(name, col, speed) {
+                                                                 var value = getContent(name);
+                                                                 while ( value.indexOf("&nbsp;", "-10") != (-1) ) {
+                                                                         var value = value.replace("&nbsp;", "");
+                                                                         };
+                                                                 if (value.indexOf('<span') >= 0) { return; }
+                                                                 var length = 0;
+                                                                 var str = '';
+                                                                 var ch;
+                                                                 var token = '';
+                                                                 var htmltag = false;
+                                                                 for (i = 0; i < value.length; i++) {
+                                                                         ch = value.substring(i, i+1);
+                                                                         if (i < value.length - 1) { nextch = value.substring(i+1, i+2); } else { nextch = ' '; }
+                                                                         token += ch;
+                                                                         if (ch == '<' && '/aAbBpPhHiIoOuUlLtT'.indexOf(nextch) >= 0) { htmltag = true; }
+                                                                         if (ch == '>' && htmltag) { htmltag = false; }
+                                                                         if (!htmltag && ch.charCodeAt(0) > 30 && ch != ' ' && ch != '\n') {
+                                                                                 str += '<span id="' + name + '_' + length + '">' + token + '</span>';
+                                                                                 token = '';
+                                                                                 length++;
+                                                                         }
+                                                                 }
+                                                                 setContent(name, str);
+                                                                 glitcommand = 'glitterloop(\'' + name + '\', ' + length + ', 0, 1, \'' + col + '\', ' + speed + ')';
+                                                                 setTimeout(glitcommand , speed);
+                                                         }
+                                                         function shine(name, col, speed) {
+                                                                         var value = getContent(name);
+                                                                         while ( value.indexOf("&nbsp;", "-10") != (-1) ) {
+                                                                                 var value = value.replace("&nbsp;", "");
+                                                                                 };
+                                                                         if (value.indexOf('<span') >= 0) { return; }
+                                                                         var length = 0;
+                                                                                         var str = '';
+                                                                         var ch;
+                                                                         var token = '';
+                                                                         var htmltag = false;
+                                                             for (i = 0; i < value.length; i++) {
+                                                                                 ch = value.substring(i, i+1);
+                                                                                 if (i < value.length - 1) { nextch = value.substring(i+1, i+2); } else { nextch = ' '; }
+                                                                                 token += ch;
+                                                                                 if (ch == '<' && '/aAbBpPhHiIoOuUlLtT'.indexOf(nextch) >= 0) { htmltag = true; }
+                                                                                 if (ch == '>' && htmltag) { htmltag = false; }
+                                                                                 if (!htmltag && ch.charCodeAt(0) > 30 && ch != ' ' && ch != '\n') {
+                                                                                                                 str += '<span id="' + name + '_' + length + '">' + token + '</span>';
+                                                                                         token = '';
+                                                                                         length++;
+                                                                                 }
+                                                             }
+                                                                 setContent(name, str);
+                                                                 shinecommand = 'shineloop(\'' + name + '\', ' + length + ', 0, 1, \'' + col + '\', ' + speed + ')';
+                                                                 setTimeout(shinecommand , speed);
+                                                         }
+                                                                 function RainbowSpan(span, hue, deg, brt, spd, hspd) {
+                                                                         this.deg=(deg==null?360:Math.abs(deg));
+                                                                         this.hue=(hue==null?0:Math.abs(hue)%360);
+                                                                         this.hspd=(hspd==null?3:Math.abs(hspd)%360);
+                                                                         this.length=span.firstChild.data.length;
+                                                                         this.span=span;
+                                                                         this.speed=(spd==null?50:Math.abs(spd));
+                                                                         this.hInc=this.deg/this.length;
+                                                                         this.brt=(brt==null?255:Math.abs(brt)%256);
+                                                                         this.timer=null;
+                                                                         toSpans(span);
+                                                                         this.moveRainbow();
+                                                                 }
+                                                 RainbowSpan.prototype.moveRainbow = function() {
+                                                   if(this.hue>359) this.hue-=360;
+                                                   var color;
+                                                   var b=this.brt;
+                                                   var a=this.length;
+                                                   var h=this.hue;
+
+                                                   for(var i=0; i<a; i++) {
+
+                                                     if(h>359) h-=360;
+
+                                                     if(h<60) { color=Math.floor(((h)/60)*b); red=b;grn=color;blu=0; }
+                                                     else if(h<120) { color=Math.floor(((h-60)/60)*b); red=b-color;grn=b;blu=0; }
+                                                     else if(h<180) { color=Math.floor(((h-120)/60)*b); red=0;grn=b;blu=color; }
+                                                     else if(h<240) { color=Math.floor(((h-180)/60)*b); red=0;grn=b-color;blu=b; }
+                                                     else if(h<300) { color=Math.floor(((h-240)/60)*b); red=color;grn=0;blu=b; }
+                                                     else { color=Math.floor(((h-300)/60)*b); red=b;grn=0;blu=b-color; }
+
+                                                     h+=this.hInc;
+
+                                                     this.span.childNodes[i].style.color="rgb("+red+", "+grn+", "+blu+")";
+                                                   }
+                                                   this.hue+=this.hspd;
+                                                 }
+                                                         function shineloop(name, length, ind, delta, col, speed) {
+                                                                         var next = ind + delta;
+                                                                         if (next >= length) { delta = delta * -1; next = ind + delta; }
+                                                                         if (next < 0) { delta = delta * -1; next = ind + delta; }
+                                                                 setColor(name + '_' + ind, getColor(name + '_' + next));
+                                                                 setColor(name + '_' + next, col);
+                                                                 shinecommand = 'shineloop(\'' + name + '\', ' + length + ', ' + next + ', ' + delta + ', \'' + col + '\', ' + speed + ')';
+                                                                 setTimeout(shinecommand , speed);
+                                                                 }
+
+                                                         function glitterloop(name, length, ind, delta, col, speed) {
+                                                                         var new_spd = Math.floor(Math.random()*31);
+                                                                         var new_spd = (new_spd - 15);
+                                                                         var new_spd = (new_spd + speed);
+                                                                         var next = Math.floor(Math.random()*(length+1));
+                                                                     if (next >= length) { delta = delta * -1; next = (-1); }
+                                                                     if (next < 0) { delta = delta * -1; next = 1; }
+                                                                 setColor(name + '_' + ind, getColor(name + '_' + next));
+                                                                 setColor(name + '_' + next, col);
+                                                                 glitcommand = 'glitterloop(\'' + name + '\', ' + length + ', ' + next + ', ' + delta + ', \'' + col + '\', ' + speed + ')';
+                                                                 setTimeout(glitcommand , new_spd);
+                                                         }
+                                                 </script>
+                        
+<br /><table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+
+<thead>
+	<tr>
+		<td class="tcat" colspan="2">
+		<a style="float:left" href="#top" onclick="return toggle_collapse('ehdaa_system')"><img id="collapseimg_ehdaa_system" src="7kaya-free/buttons/collapse_thead.gif" alt="" border="0" /></a>
+		<span id="ehdaa">«· €—Ìœ«  Ê«·«Âœ«¡« </span><script type="text/javascript"> vbmenu_register("ehdaa"); </script></td>
+	</tr>
+</thead>
+
+<tbody id="collapseobj_ehdaa_system" style="">
+	<tr>
+	
+		<td dir="rtl" class="alt1" width="100%">
+		
+			<script language="JavaScript" type="text/JavaScript">
+			<!-- 
+			document.writeln('<marquee dir="rtl" onmouseover="this.stop()" onmouseout="this.start()" direction="right" scrollamount="3" scrolldelay="60" class="smallfont">');
+			document.writeln('<span dir="rtl"><a href="u47585.html"><input type="text" name="T1" size="17" class="pink" value="ﬁ‰ « —" readonly style="border-style:dotted; border-width:1px; width: 90"><\/a><\/span>&nbsp;<span dir="rtl"><strong>„‰: </strong>«·« „« —« <\/span>:&nbsp;<span dir="rtl">„”« ¡   «·ŒÌ—          Ê«·‰Ê—    ÊÃ„⁄Â    „»« —ﬂÂ        Ê„»—Êﬂ ⁄·Ìﬂ„ ﬁœÊ„    ‘Â—    —„÷« ‰ «·„»« —ﬂ    «⁄« œÂ «··Â  ⁄·«  «·Ã„Ì⁄<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span dir="rtl"><img width="16" height="16" class="inlineimg" src="images/misc/v.gif" alt="" border="0" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.writeln('<span dir="rtl"><a href="u48503.html"><input type="text" name="T1" size="17" class="pink" value="› «… «„Ì—ﬂ« «·⁄Ê»…" readonly style="border-style:dotted; border-width:1px; width: 90"><\/a><\/span>&nbsp;<span dir="rtl"><strong>„‰: </strong>«„Ì—ﬂ«<\/span>:&nbsp;<span dir="rtl"> ÕÌ… ÿÌ»… „‰Ì ··Ã„Ì⁄ «⁄÷«¡ „‰ œÏ ⁄„—Ì    „‰ «„Ì—ﬂ« ·›·”ÿÌ‰ «·€«·Ì… «—”· ·Â« ﬁ»·« Ì<img src="images\/smilies\/57.gif" border="0" alt="" title="57" class="inlineimg" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span dir="rtl"><img width="16" height="16" class="inlineimg" src="images/misc/v.gif" alt="" border="0" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.writeln('<span dir="rtl"><a href="u25072.html"><input type="text" name="T1" size="17" class="pink" value=" ”„ﬁ " readonly style="border-style:dotted; border-width:1px; width: 90"><\/a><\/span>:&nbsp;<span dir="rtl"><font face="Microsoft Sans Serif"><font size="6"><font color="Indigo">»„‰«”»… √ﬁ —«» ‘Â— «·—Õ„… Ê«·€›—«‰ √ ﬁœ„ »≈”„Ì Ê≈”„ ﬂ· √⁄÷«¡ <font color="DarkGreen">„‰ œÏ ⁄„—Ì<\/font> »√Œ·’ «· Õ«Ì« Ê«ÃÊœ «·⁄»—«  „ „‰Ì… „‰ «·—Õ„«‰ √‰ Ì›—Ã ⁄‰« ﬂ—Ê»‰« ÊÂ„Ê„‰« Ê√‰ Ìÿ›√ ‰«— «·› ‰ »»·«œ‰« «··Â„ √„Ì‰-’Õ —„÷«‰ﬂ„-<\/font><\/font><\/font><\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span dir="rtl"><img width="16" height="16" class="inlineimg" src="images/misc/v.gif" alt="" border="0" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.writeln('<span dir="rtl"><a href="u49045.html"><input type="text" name="T1" size="17" class="pink" value="«·«·„ «·ŒÃÊ·" readonly style="border-style:dotted; border-width:1px; width: 90"><\/a><\/span>&nbsp;<span dir="rtl"><strong>„‰: </strong>„‰ ›·» Õ»Ì» Ï<\/span>:&nbsp;<span dir="rtl">›Ì €Ì‹‹‹‹‹‹‹‹‹‹‹» ﬂ    Àﬁ· ⁄·Ì «·œﬁ«Ìﬁ      Ê«·Êﬁ  „⁄ €Ì—ﬂ „«⁄«œ   Ì‰ÿ«ﬁ.   —»ÿ ‰Ì „«»Ì‰ ⁄Âœ   ÊÊÀ«Ìﬁ   ÊŒ·Ì ‰Ì »” ··ﬁ’«Ìœ   Ê«·√Ê—«ﬁ   Ê«·ÌÊ„ √ﬁÊ·ﬂ œÊ‰ <\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span dir="rtl"><img width="16" height="16" class="inlineimg" src="images/misc/v.gif" alt="" border="0" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.writeln('<span dir="rtl"><a href="u49045.html"><input type="text" name="T1" size="17" class="pink" value="«·«·„ «·ŒÃÊ·" readonly style="border-style:dotted; border-width:1px; width: 90"><\/a><\/span>&nbsp;<span dir="rtl"><strong>„‰: </strong>„‰ ﬁ·»Ì<\/span>:&nbsp;<span dir="rtl"> ‹”‹√·‹‰‹Ì ⁄‹‹‰ √”‹»‹‹¬≈» ›‹‹—Õ‹ ‹‹Ì !ø   ~.. √Ê·‹‹Â‹‹« √‰‹‹ Û   ~...ÊÀ‹‹«‰‹Ì‹‹Â‹« √‰‹‹ Û   ~...Ê √Œ‹‹—Â« √‰‹‹ Û ..!   Ê ﬂ‹‹‹·˙ ›‹‹—Õ‹‹Ì ..   ... √‰‹‹ Û ° √‰‹‹‹ Û ° √‰‹‹‹ Û ..\/\/~   ›·«  ·Ê„‰‹‹Ì ≈–« »ﬂ‹‹‹  ⁄Ì‰‹‹‹Ì ⁄·Ì‹‹‹‹ﬂ √Ê Œ›‹‹‹‹ﬁ «·›‹‹‹‹ƒ«œ Ê ¬“œ«œ ‘‹‹‹‹‹Êﬁ« ≈·Ì‹‹‹‹‹ﬂ √Ê ‰‹‹‹‹‹“› ﬁ·»‹‹‹Ì Ê „‹‹‹‹«  „œ›Ê‰‹‹‹‹‹« »Ì‹‹‹‹‹‹‹‰ ÌœÌ‹‹‹‹‹‹‹‹‹ﬂ .. ›„‹‹‹‹‹‹« √‘‹‹‹‹‹‹ ﬁ ...<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span dir="rtl"><img width="16" height="16" class="inlineimg" src="images/misc/v.gif" alt="" border="0" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.writeln('<span dir="rtl"><a href="u41180.html"><input type="text" name="T1" size="17" class="pink" value="”Â— —ÊÕÌ" readonly style="border-style:dotted; border-width:1px; width: 90"><\/a><\/span>:&nbsp;<span dir="rtl"><img src="images\/smilies\/j.gif" border="0" alt="" title="J" class="inlineimg" \/><img src="images\/smilies\/57.gif" border="0" alt="" title="57" class="inlineimg" \/><img src="images\/smilies\/57.gif" border="0" alt="" title="57" class="inlineimg" \/><img src="images\/smilies\/j.gif" border="0" alt="" title="J" class="inlineimg" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span dir="rtl"><img width="16" height="16" class="inlineimg" src="images/misc/v.gif" alt="" border="0" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.writeln('<span dir="rtl"><a href="u45737.html"><input type="text" name="T1" size="17" class="pink" value="«·Ê«Àﬁ Ãœ«" readonly style="border-style:dotted; border-width:1px; width: 90"><\/a><\/span>:&nbsp;<span dir="rtl">Ì« —»Ì «Õ›Ÿ „’— Ê √Â·Â« „‰ ﬂ· ”Ê¡.<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span dir="rtl"><img width="16" height="16" class="inlineimg" src="images/misc/v.gif" alt="" border="0" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.writeln('<span dir="rtl"><a href="u46697.html"><input type="text" name="T1" size="17" class="pink" value="«·Õ‰Ê‰…2" readonly style="border-style:dotted; border-width:1px; width: 90"><\/a><\/span>:&nbsp;<span dir="rtl">«··¯ÛÂı„¯Û ’Û·¯ˆ ⁄Û·ÛÏ „ıÕÛ„¯ÛœÚ ÊÛ ¬·ˆÂˆ ° ›ˆÌ ﬂı·¯ˆ ÊÛﬁ˙ Ú ÊÛ ﬂı·¯ˆ √ÛÊÛ«‰Ú ÊÛ ⁄Û·ÛÏ ﬂı·¯ˆ ÕÛ«·Ú ⁄ÛœÛœÛ „Û« ’Û·¯ÛÌ˙ Û ⁄Û·ÛÏ „Û‰˙ ’Û·¯ÛÌ˙ Û ⁄Û·ÛÌ˙Âˆ ° ÊÛ √Û÷˙⁄Û«›Û –Û·ˆﬂÛ ﬂı·¯ˆÂˆ »ˆ«·˙√Û÷˙⁄Û«›ˆ «·¯Û ˆÌ ·Û« ÌıÕ˙’ˆÌÂÛ« €ÛÌ˙—ıﬂÛ ° ≈ˆ‰¯ÛﬂÛ ›Û⁄¯Û«·Ò ·ˆ„Û«  ı—ˆÌœı<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span dir="rtl"><img width="16" height="16" class="inlineimg" src="images/misc/v.gif" alt="" border="0" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.writeln('<span dir="rtl"><a href="u49184.html"><input type="text" name="T1" size="17" class="pink" value="«œ„ 2" readonly style="border-style:dotted; border-width:1px; width: 90"><\/a><\/span>&nbsp;<span dir="rtl"><strong>„‰: </strong>«œ„<\/span>:&nbsp;<span dir="rtl"><font size="7"><font face="Arial"><font face="Impact"><font color="Red"><b>„Ì—”Ì Ê«‘ﬂ—ﬂ ÊÊ’·‰Ì œ⁄«∆ﬂ„ ÊÌ«—» «·«“„Â  ‰ ÂÌ <img src="images\/smilies\/57.gif" border="0" alt="" title="57" class="inlineimg" \/><img src="images\/smilies\/57.gif" border="0" alt="" title="57" class="inlineimg" \/><img src="images\/smilies\/57.gif" border="0" alt="" title="57" class="inlineimg" \/><img src="images\/smilies\/57.gif"...<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span dir="rtl"><img width="16" height="16" class="inlineimg" src="images/misc/v.gif" alt="" border="0" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.writeln('<span dir="rtl"><a href="u49184.html"><input type="text" name="T1" size="17" class="pink" value="«œ„ 2" readonly style="border-style:dotted; border-width:1px; width: 90"><\/a><\/span>&nbsp;<span dir="rtl"><strong>„‰: </strong>«œ„<\/span>:&nbsp;<span dir="rtl"><font size="7"><font face="Arial"><font face="Impact"><font color="Red"><b>„Ì—”Ì Ê«‘ﬂ—ﬂ ÊÊ’·‰Ì œ⁄«∆ﬂ„ ÊÌ«—» «·«“„Â  ‰ ÂÌ <img src="images\/smilies\/57.gif" border="0" alt="" title="57" class="inlineimg" \/><img src="images\/smilies\/57.gif" border="0" alt="" title="57" class="inlineimg" \/><img src="images\/smilies\/57.gif" border="0" alt="" title="57" class="inlineimg" \/><img src="images\/smilies\/57.gif"...<\/span>&nbsp;&nbsp;&nbsp;&nbsp;<span dir="rtl"><img width="16" height="16" class="inlineimg" src="images/misc/v.gif" alt="" border="0" \/><\/span>&nbsp;&nbsp;&nbsp;&nbsp;');
+			document.writeln('<\/marquee>');
+			//-->
+			</script>		
+		
+		</td>
+				
+	</tr>
+</tbody>
+</table>
+<br />
+<div class="vbmenu_popup" id="ehdaa_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr>
+		<td class="vbmenu_option"><a rel="nofollow" href="misc.php?do=showehdaa">⁄—÷ «·≈Âœ«¡« </a></td>
+	</tr>
+	
+	</table>
+</div><br />
+<div class="block">
+	<div class="top">
+    	<div class="right"></div>
+        <div class="left"></div>
+        <div class="center"></div>
+    </div>
+    <div class="med">
+    	<div class="in">
+<!-- breadcrumb, login, pm info -->
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+<tr>
+	<td class="alt1" width="100%">
+		
+			<table cellpadding="0" cellspacing="0" border="0">
+			<tr valign="bottom">
+				<td><a href="#" onclick="history.back(1); return false;"><img src="7kaya-free/misc/navbits_start.gif" alt="«·⁄Êœ…" border="0" /></a></td>
+				<td>&nbsp;</td>
+				<td width="100%"><span class="navbar"><a href="/" accesskey="1">„‰ œÌ«  ⁄„—Ì</a></span> 
+	<span class="navbar">&gt; <a href="f31.html">«·„‰ œÌ«  «·›‰Ì… Ê«·”Ì‰„«∆Ì…</a></span>
+
+
+	<span class="navbar">&gt; <a href="f82.html">ﬁ”„ «·ﬂ·Ì»«  Ê«·’Ê Ì«  Ê «·«€«‰Ì</a></span>
+
+
+	<span class="navbar">&gt; <a href="f35.html">„‰ œÏ «·«€«‰Ì «·«Ã‰»Ì…</a></span>
+
+</td>
+			</tr>
+			<tr>
+				<td class="navbar" style="font-size:10pt; padding-top:1px" colspan="3"><a rel="nofollow" href="/newthread.php?do=newthread&amp;f=35"><img class="inlineimg" src="7kaya-free/misc/navbits_finallink_rtl.gif" alt=" ÕœÌÀ «·’›Õ…" border="0" /></a> <strong>
+	≈‰‘«¡ „Ê÷Ê⁄ ÃœÌœ
+
+</strong></td>
+			</tr>
+			</table>
+		
+	</td>
+
+	<td class="alt2" nowrap="nowrap">
+	<div class="smallfont">
+		<strong>√Â·« Ê”Â·« »ﬂ‹ <a href="u50261.html">nudufo</a>.</strong><br />
+		¬Œ— “Ì«—… ·ﬂ ﬂ«‰ : «·ÌÊ„ «·”«⁄… <span class="time">07:06 AM</span>
+
+		
+			<div><span id="notifications"><a href="usercp.php">«· ‰»ÌÂ« :</a> <strong>5</strong></span></div>
+			
+				<script type="text/javascript"> vBmenu.register("notifications"); </script>
+			
+		
+
+		
+	</div>
+	</td>
+
+</tr>
+</table>
+<!-- / breadcrumb, login, pm info -->
+
+<!-- nav buttons bar -->
+	<table cellpadding="0" cellspacing="0" border="0" width="100%" align="center">
+	<tr align="center">
+		
+			<td class="vbmenu_control"><a href="usercp.php">·ÊÕ… «· Õﬂ„</a></td>
+		
+		
+		
+		<td class="vbmenu_control"><a rel="help" href="faq.php" accesskey="5">«· ⁄·Ì„‹‹‹« </a></td>
+		
+			<td class="vbmenu_control"><a id="community" href="/newthread.php?do=newthread&amp;f=35&amp;nojs=1#community" rel="nofollow" accesskey="6">«·„Ã„Ê⁄« </a> <script type="text/javascript"> vbmenu_register("community"); </script></td>
+		
+		<td class="vbmenu_control"><a href="calendar.php">«· ﬁÊÌ„</a></td>
+		
+			
+				
+				<td class="vbmenu_control"><a rel="nofollow" href="search.php?do=getnew" accesskey="2">«·„‘«—ﬂ«  «·ÃœÌœ…</a></td>
+				
+				<td class="vbmenu_control"><a id="navbar_search" href="search.php" accesskey="4" rel="nofollow">«·»ÕÀ</a> <script type="text/javascript"> vbmenu_register("navbar_search"); </script></td>
+			
+			
+				<td class="vbmenu_control"><a rel="nofollow" id="usercptools" href="/newthread.php?do=newthread&amp;f=35&amp;nojs=1#usercptools" accesskey="3">ŒÌ«—«  ”—Ì⁄…</a> <script type="text/javascript"> vbmenu_register("usercptools"); </script></td>
+			
+		
+		
+		
+			<td class="vbmenu_control"><a rel="nofollow" href="login.php?do=logout&amp;logouthash=1373097716-d4fd1cb61f89f60403008a70cbd7ef2bc48b63bc" onclick="return log_out('Â· √‰  „ √ﬂœ »—€» ﬂ ›Ì «·Œ—ÊÃ „‰ «·„‰ œÏø')"> ”ÃÌ· «·Œ—ÊÃ</a></td>
+		
+		</tr>
+	</table>
+<!-- / nav buttons bar -->
+        </div>
+    </div>
+    <div class="down">
+    	<div class="right"></div>
+        <div class="left"></div>
+    </div>
+</div>
+<br />
+
+
+
+
+	<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+	<tr>
+		<td class="alt1" width="100%"><strong>„‰ œÏ «·«€«‰Ì «·«Ã‰»Ì…</strong> <span class="smallfont">„‰ œÏ «·«€«‰Ì «·«Ã‰»Ì…</span></td>
+	</tr>
+	</table>
+	<br />
+
+
+
+<!-- NAVBAR POPUP MENUS -->
+
+	
+	<!-- community link menu -->
+	<div class="vbmenu_popup" id="community_menu" style="display:none;margin-top:3px" align="right">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr><td class="thead">—Ê«»ÿ «·„‰ œÏ</td></tr>
+		
+		
+					<tr><td class="vbmenu_option"><a href="group.php">«·„Ã„Ê⁄«  «·≈Ã „«⁄Ì…</a></td></tr>
+		
+		
+					<tr><td class="vbmenu_option"><a href="album.php">«·√·»Ê„«  Ê«·’Ê—</a></td></tr>
+		
+		
+			<tr><td class="vbmenu_option"><a rel="nofollow" href="profile.php?do=buddylist">«·« ’«· Ê«·√’œﬁ«¡</a></td></tr>
+		
+		
+		
+		</table>
+	</div>
+	<!-- / community link menu -->
+	
+	
+	
+	<!-- header quick search form -->
+	<div class="vbmenu_popup" id="navbar_search_menu" style="display:none;margin-top:3px" align="right">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead">«·»ÕÀ ›Ì «·„‰ œÏ</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+				<form action="search.php?do=process" method="post">
+
+					<input type="hidden" name="do" value="process" />
+					<input type="hidden" name="quicksearch" value="1" />
+					<input type="hidden" name="childforums" value="1" />
+					<input type="hidden" name="exactname" value="1" />
+					<input type="hidden" name="s" value="" />
+					<input type="hidden" name="securitytoken" value="1373097716-d4fd1cb61f89f60403008a70cbd7ef2bc48b63bc" />
+					<div><input type="text" class="bginput" name="query" size="25" tabindex="1001" /><input type="submit" class="button" value="≈–Â»" tabindex="1004" /></div>
+					<div style="margin-top:6px">
+						<label for="rb_nb_sp0"><input type="radio" name="showposts" value="0" id="rb_nb_sp0" tabindex="1002" checked="checked" />⁄—÷ «·„Ê«÷Ì⁄</label>
+						&nbsp;
+						<label for="rb_nb_sp1"><input type="radio" name="showposts" value="1" id="rb_nb_sp1" tabindex="1003" />⁄—÷ «·„‘«—ﬂ« </label>
+					</div>
+				</form>
+			</td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="tags/" rel="nofollow">»ÕÀ »«·ﬂ·„… «·œ·«·Ì… </a></td>
+		</tr>
+		
+		<tr>
+			<td class="vbmenu_option"><a href="search.php" accesskey="4" rel="nofollow">«·»ÕÀ «·„ ﬁœ„</a></td>
+		</tr>
+		
+		</table>
+	</div>
+	<!-- / header quick search form -->
+	
+	
+	
+	<!-- user cp tools menu -->
+	<div class="vbmenu_popup" id="usercptools_menu" style="display:none;margin-top:3px" align="right">
+		<table cellpadding="4" cellspacing="1" border="0">
+
+		<tr><td class="thead">ŒÌ«—«  ”—Ì⁄…</td></tr>
+		<tr><td class="vbmenu_option"><a href="search.php?do=getdaily">„‘«—ﬂ«  «·ÌÊ„</a></td></tr>
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="forumdisplay.php?do=markread">«Ã⁄· ﬂ«›… «·√ﬁ”«„ „ﬁ—Ê¡…</a></td></tr>
+		<tr><td class="vbmenu_option"><a href="#" onclick="window.open('misc.php?do=buddylist&amp;focus=1','buddylist','statusbar=no,menubar=no,toolbar=no,scrollbars=yes,resizable=yes,width=250,height=300'); return false;">› Õ ‰«›–… ÃÂ«  «·≈ ’«·</a></td></tr>
+		
+		
+
+		<tr><td class="thead"><a href="usercp.php">·ÊÕ…  Õﬂ„ «·⁄÷Ê</a></td></tr>
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="profile.php?do=editsignature"> ⁄œÌ· «· ÊﬁÌ⁄</a></td></tr>
+		<!--<tr><td class="vbmenu_option"><a rel="nofollow" href="profile.php?do=editavatar"> ⁄œÌ· «·’Ê—… «·—„“Ì…</a></td></tr>-->
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="profile.php?do=editprofile"> ⁄œÌ· »Ì«‰« Ì</a></td></tr>
+		<tr><td class="vbmenu_option"><a rel="nofollow" href="profile.php?do=editoptions"> ⁄œÌ· «·ŒÌ«—« </a></td></tr>
+		
+
+		<tr><td class="thead">ŒÌ«—«  „ ‰Ê⁄…</td></tr>
+		<tr><td class="vbmenu_option"><a href="private.php" rel="nofollow">«·—”«∆· «·Œ«’…</a></td></tr>
+		<tr><td class="vbmenu_option"><a href="subscription.php" rel="nofollow">„Ê«÷Ì⁄ „‘ —ﬂ »Â«</a></td></tr>
+		<tr><td class="vbmenu_option"><a href="u50261.html">„‘«Âœ… „·›Ì «·‘Œ’Ì</a></td></tr>
+		
+		
+
+		</table>
+	</div>
+	<!-- / user cp tools menu -->
+
+	
+<!-- / NAVBAR POPUP MENUS -->
+
+<!-- PAGENAV POPUP -->
+	<div class="vbmenu_popup" id="pagenav_menu" style="display:none">
+		<table cellpadding="4" cellspacing="1" border="0">
+		<tr>
+			<td class="thead" nowrap="nowrap">«·–Â«» ≈·Ï «·’›Õ…...</td>
+		</tr>
+		<tr>
+			<td class="vbmenu_option" title="nohilite">
+			<form action="/" method="get" onsubmit="return this.gotopage()" id="pagenav_form">
+				<input type="text" class="bginput" id="pagenav_itxt" style="font-size:11px" size="4" />
+				<input type="button" class="button" id="pagenav_ibtn" value="≈–Â»" />
+			</form>
+			</td>
+		</tr>
+		</table>
+	</div>
+<!-- / PAGENAV POPUP -->
+
+
+
+<!-- notifications menu -->
+<div class="vbmenu_popup" id="notifications_menu" style="display:none">
+	<table cellpadding="4" cellspacing="1" border="0">
+	<tr><td class="thead" colspan="2">«· ‰»ÌÂ« </td></tr>
+	<tr>
+	<td class="vbmenu_option"><a href="private.php">—”«∆· Œ«’… €Ì— „ﬁ—Ê¡…</a></td>
+	<td class="vbmenu_option" align="left"><a href="private.php">0</a></td>
+</tr><tr>
+	<td class="vbmenu_option"><a href="t224056.html" style="font-weight:bold">„Ê«÷Ì⁄ ÌÃ» ﬁ—«¡ Â«</a></td>
+	<td class="vbmenu_option" align="left"><a href="t224056.html" style="font-weight:bold">5</a></td>
+</tr><tr>
+	<td class="vbmenu_option"><a rel="nofollow" href="u50261.html?tab=visitor_messaging#visitor_messaging">—”«∆· “Ê«— €Ì— „ﬁ—Ê¡…</a></td>
+	<td class="vbmenu_option" align="left"><a rel="nofollow" href="u50261.html?tab=visitor_messaging#visitor_messaging">0</a></td>
+</tr><tr>
+	<td class="vbmenu_option"><a rel="nofollow" href="u50261.html?tab=visitor_messaging#visitor_messaging">—”«∆· «·“Ê«— »«‰ Ÿ«— «·„Ê«›ﬁ…</a></td>
+	<td class="vbmenu_option" align="left"><a rel="nofollow" href="u50261.html?tab=visitor_messaging#visitor_messaging">0</a></td>
+</tr><tr>
+	<td class="vbmenu_option"><a rel="nofollow" href="profile.php?do=buddylist#irc">ÿ·»«  «·’œ«ﬁ… «·ÃœÌœ…</a></td>
+	<td class="vbmenu_option" align="left"><a rel="nofollow" href="profile.php?do=buddylist#irc">0</a></td>
+</tr><tr>
+	<td class="vbmenu_option"><a rel="nofollow" href="group.php?do=requests">ÿ·»«  «‰÷„«„ ··„Ã„Ê⁄«  «·«Ã „«⁄Ì…</a></td>
+	<td class="vbmenu_option" align="left"><a rel="nofollow" href="group.php?do=requests">0</a></td>
+</tr><tr>
+	<td class="vbmenu_option"><a rel="nofollow" href="group.php?do=invitations">œ⁄Ê«  «‰÷„«„ ·„Ã„Ê⁄«  «Ã „«⁄Ì…</a></td>
+	<td class="vbmenu_option" align="left"><a rel="nofollow" href="group.php?do=invitations">0</a></td>
+</tr><tr>
+	<td class="vbmenu_option"><a rel="nofollow" href="album.php?do=unread"> ⁄·Ìﬁ«  ’Ê—… €Ì— „ﬁ—Ê¡…</a></td>
+	<td class="vbmenu_option" align="left"><a rel="nofollow" href="album.php?do=unread">0</a></td>
+</tr><tr>
+	<td class="vbmenu_option"><a rel="nofollow" href="album.php?do=moderated"> ⁄·Ìﬁ«  «·’Ê—… »«‰ Ÿ«— «·„Ê«›ﬁ….</a></td>
+	<td class="vbmenu_option" align="left"><a rel="nofollow" href="album.php?do=moderated">0</a></td>
+</tr><tr>
+	<td class="vbmenu_option"><a rel="nofollow" href="group.php?do=moderatedgms">—”«∆· «·„Ã„Ê⁄… »«‰ Ÿ«— «·„Ê«›ﬁ….</a></td>
+	<td class="vbmenu_option" align="left"><a rel="nofollow" href="group.php?do=moderatedgms">0</a></td>
+</tr><tr>
+	<td class="vbmenu_option"><a rel="nofollow" href="u50261.html?tab=likes_received#likes_received">ÃœÌœ «·«⁄Ã«»«  «· Ì  ·ﬁÌ Â«</a></td>
+	<td class="vbmenu_option" align="left"><a rel="nofollow" href="u50261.html?tab=likes_received#likes_received">0</a></td>
+</tr>
+	</table>
+</div>
+<!-- / notifications menu -->
+
+
+
+
+
+
+<form action="newthread.php?do=postthread&amp;f=35" method="post" name="vbform" onsubmit="return vB_Editor['vB_Editor_001'].prepare_submit(this.subject.value, 1)">
+
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+<tr>
+	<td class="tcat">
+		<span class="smallfont" style="float:left"><strong>«·„‰ œÏ</strong>: <a href="f35.html">„‰ œÏ «·«€«‰Ì «·«Ã‰»Ì…</a></span>
+		≈‰‘«¡ „Ê÷Ê⁄ ÃœÌœ
+	</td>
+</tr>
+<tr>
+	<td class="panelsurround" align="center">
+	<div class="panel">
+		<div style="width:640px" align="right">
+
+		
+	<!-- user is logged in -->
+	<div class="smallfont" style="float:left">
+		œŒÊ·ﬂ „”Ã· »≈”„ : <a href="u50261.html" target="_blank">nudufo</a>
+	</div>
+
+
+		
+
+		<!-- subject field -->
+		<table cellpadding="0" cellspacing="0" border="0" class="fieldset">
+		<tr>
+			
+				<td class="smallfont">«·«Œ ’«—:</td>
+				<td class="smallfont" colspan="3">«·⁄‰Ê«‰:</td>
+			
+		</tr>
+		<tr>
+			
+				<td style="padding-right: 1px">
+					<select name="prefixid" class="bginput">
+						<option value="">(»œÊ‰ «Œ ’«—)</option>
+						
+<optgroup label="⁄«„ ·Ã„Ì⁄ «·«ﬁ”«„">
+<option value="29" class="" >2013</option>
+<option value="28" class="" >»«·’Ê— 2013</option>
+<option value="42" class="" >»«·’Ê— 2012</option>
+<option value="43" class="" >’Ê— 2012</option>
+<option value="41" class="" >2012</option>
+<option value="25" class="" >Õ’—Ì«</option>
+<option value="23" class="" >»«·’Ê—</option>
+<option value="40" class="" >2011</option>
+<option value="21" class="" >’Ê—</option>
+<option value="45" class="" >1433</option>
+<option value="22" class="" >’Ê— 2011</option>
+<option value="53" class="" >’Ê— 2013</option>
+<option value="24" class="" >»«·’Ê— 2011</option>
+<option value="66" class="" >2014</option>
+
+</optgroup>
+
+<optgroup label="«€«‰Ì">
+<option value="11" class="" > Õ„Ì· «€‰Ì…</option>
+
+</optgroup>
+
+					</select>
+				</td>
+			
+			<td>
+				<input type="text" class="bginput" name="subject" value="" size="40" maxlength="110" tabindex="1" />
+			</td>
+			<td>&nbsp;&nbsp;</td>
+			<td><img id="display_posticon" src="clear.gif" alt="" /></td>
+		</tr>
+		</table>
+		<!-- / subject field -->
+
+		<!-- message area -->
+		<div class="smallfont">«·—”«·…:</div>
+		<!-- Editor Scripts -->
+<script type="text/javascript" src="clientscript/vbulletin_textedit.js?v=383"></script>
+<script type="text/javascript">
+<!--
+var fontoptions = new Array("Arial", "Arial Black", "Arial Narrow", "Book Antiqua", "Century Gothic", "Comic Sans MS", "Courier New", "Fixedsys", "Franklin Gothic Medium", "Garamond", "Georgia", "Impact", "Lucida Console", "Lucida Sans Unicode", "Microsoft Sans Serif", "Palatino Linotype", "System", "Tahoma", "Times New Roman", "Trebuchet MS", "Verdana");
+var sizeoptions = new Array(1, 2, 3, 4, 5, 6, 7);
+var smilieoptions = { 
+	'Generic Smilies' : {
+		'107' : new Array('images/smilies/wub[1].gif', ':wub[1]:', 'Wub[1]'),
+		'43' : new Array('images/smilies/bttiggrin.gif', ':bttiggrin:', 'Bttiggrin'),
+		'75' : new Array('images/smilies/no[1].gif', ':no[1]:', 'No[1]'),
+		'32' : new Array('images/smilies/672452.gif', ':672452:', '672452'),
+		'64' : new Array('images/smilies/j.gif', ':j:', 'J'),
+		'96' : new Array('images/smilies/sleeeeeeb.png', ':sleeeeeeb:', 'Sleeeeeeb'),
+		'21' : new Array('images/smilies/060.gif', ':060:', '060'),
+		'53' : new Array('images/smilies/FF.gif', ':FF:', 'FF'),
+		'85' : new Array('images/smilies/patch_pleur1.gif', ':patch_pleur1:', 'Patch Pleur1'),
+		'106' : new Array('images/smilies/unsure[1].gif', ':unsure[1]:', 'Unsure[1]'),
+		'42' : new Array('images/smilies/bo0o0o0o0o0om.png', ':bo0o0o0o0o0om:', 'Bo0o0o0o0o0om'),
+		'74' : new Array('images/smilies/msn-wink.gif', ':msn-wink:', 'Msn Wink'),
+		'31' : new Array('images/smilies/525254.gif', ':525254:', '525254'),
+		'63' : new Array('images/smilies/icon28.gif', ':icon28:', 'Icon28'),
+		'95' : new Array('images/smilies/shutup.gif', ':shutup:', 'Shutup'),
+		'20' : new Array('images/smilies/57.gif', ':57:', '57'),
+		'52' : new Array('images/smilies/eh_s(10)[1].gif', ':eh_s(10)[1]:', 'Eh S(10)[1]'),
+		'84' : new Array('images/smilies/patch_pleur.gif', ':patch_pleur:', 'Patch Pleur'),
+		'105' : new Array('images/smilies/ttt[1].gif', ':ttt[1]:', 'Ttt[1]'),
+		'41' : new Array('images/smilies/blush.gif', ':blush:', 'Blush'),
+		'more' : '⁄—÷ ﬂ«›… «·«» ”«„« '
+} };
+
+var istyles = { "pi_button_down" : [ "#98B5E2", "#000000", "0px", "1px solid #316AC5" ], "pi_button_hover" : [ "#C1D2EE", "#000000", "0px", "1px solid #316AC5" ], "pi_button_selected" : [ "#F1F6F8", "#000000", "0px", "1px solid #316AC5" ], "pi_menu_down" : [ "#98B5E2", "#316AC5", "0px", "1px solid #316AC5" ], "pi_menu_hover" : [ "#C1D2EE", "#316AC5", "0px", "1px solid #316AC5" ], "pi_menu_normal" : [ "#FFFFFF", "#000000", "0px", "1px solid #FFFFFF" ], "pi_popup_down" : [ "#98B5E2", "#000000", "0px", "1px solid #316AC5" ], "pi_button_normal" : [ "#fec6ff url(7kaya-free/images/thead.png) repeat-x top left", "#000000", "1px", "none" ] };
+var ltr = 'right';
+
+var smiliewindow_x = 240;
+var smiliewindow_y = 280;
+
+var ignorequotechars = 1;
+var allowbasicbbcode = true;
+
+// vB Phrases
+vbphrase["wysiwyg_please_wait"]          = "«·—Ã«¡ «·≈‰ Ÿ«— ·„Õ—— WYSIWYG ·≈ﬂ„«· «· Õ„Ì·...";
+vbphrase["wysiwyg_initialized"]          = "„Õ—— WYSIWYG  „  «·≈⁄œ«œ«  «·‰Â«∆Ì… ·‹ %1$s ›Ì %2$s ÀÊ«‰Ì.";
+vbphrase["wysiwyg_command_invalid"]      = "Â–« «·ŒÌ«— €Ì— ’«·Õ √Ê €Ì— „ «Õ .";
+vbphrase["moz_must_select_text"]         = "Ì ÿ·» „‰ﬂ √‰  Œ «— »⁄÷ «·‰’Ê’ · ⁄„· Â–Â «·ÊŸÌ›…";
+vbphrase["moz_edit_config_file"]         = " Õ «Ã · ⁄œÌ· „·› Mozilla config ··”„«Õ ·⁄„· Â–«.";
+vbphrase["enter_tag_option"]             = "—Ã«¡ √œŒ· «·ŒÌ«— ·√œ«… %1$s «·Œ«’ »ﬂ:";
+vbphrase["must_select_text_to_use"]      = "ÌÃ» √‰  Õœœ »⁄÷« „‰ «·‰’ ·«” Œœ«„ Â–Â «·ÊŸÌ›….";
+vbphrase["browser_is_safari_no_wysiwyg"] = "„ ’›¯Õ Safari ·« Ìœ⁄„ ‰„ÿ WYSIWYG.";
+vbphrase["enter_option_x_tag"]           = "√œŒ· «·ŒÌ«— ·√œ«… [%1$s]:";
+vbphrase["enter_text_to_be_formatted"]   = "√œŒ· «·‰’ ·· ÂÌ∆…";
+vbphrase["enter_link_text"]              = "√œŒ· «·‰’ ·Ì⁄—÷ ⁄·Ï «·—«»ÿ («Œ Ì«—Ì):";
+vbphrase["enter_list_type"]              = "√Ì ‰Ê⁄ „‰ «·ﬁÊ«∆„  —Ìœø √œŒ· '1' ·ﬁ«∆„… —ﬁ„Ì…, √œŒ· '√' ·ﬁ«∆„… √»ÃœÌ…, √Ê ≈ —ﬂÂ ›«—€« ·⁄„· ﬁ«∆„… ‰ﬁÿÌ…:";
+vbphrase["enter_list_item"]              = "√œŒ· ⁄‰«’— «·ﬁ«∆„….\r\n≈ —ﬂ «·Õﬁ· ›«—€ √Ê «÷€ÿ '≈·€«¡' ·≈ﬂ„«· «·ﬁ«∆„…:";
+vbphrase["must_enter_subject"]           = "ÌÃ» ≈œŒ«· ⁄‰Ê«‰ «·„Ê÷Ê⁄ !";
+vbphrase["message_too_short"]            = "⁄œœ √Õ—› «·„‘«—ﬂ… «· Ì ﬂ » Â« ﬁ’Ì—… Ãœ¬ ° ÌÃ» √‰   Ã«Ê“ %1$s Õ—›.";
+vbphrase["enter_link_url"]               = "—Ã«¡ √œŒ· ⁄‰Ê«‰ «·—«»ÿ „⁄ «·„·ﬁ„:";
+vbphrase["enter_image_url"]              = "—Ã«¡ √œŒ· ⁄‰Ê«‰ «·—«»ÿ ··’Ê—…:";
+vbphrase["enter_email_link"]             = "—Ã«¡ √œŒ· «·»—Ìœ «·≈·ﬂ —Ê‰Ì ··—«»ÿ:";
+vbphrase["complete_image_verification"]  = "·„  ﬁ„ »≈‰Â«¡ «· Õﬁﬁ „‰ «·’Ê—…";
+vbphrase["iespell_not_installed"]        = "»—‰«„Ã ieSpell ÂÊ √œ«…  œﬁÌﬁ «· ÂÃ∆… ·„ ’›Õ Internet Explorer.\r\n\r\n≈–« ﬂ‰   —Ìœ  Õ„Ì· ieSpell, ≈÷€ÿ „Ê«›ﬁ; „« ⁄œ« –·ﬂ ≈÷€ÿ ≈·€«¡.\r\n\r\nÌ„ﬂ‰  Õ„Ì· ieSpell „‰ http://www.iespell.com";
+vbphrase["click_quick_reply_icon"]       = "";
+vbphrase["insert_all"]                   = "≈œŒ«· «·ﬂ·";
+
+//-->
+</script>
+<!-- / Editor Scripts -->
+<!-- Â«ﬂ ⁄«„  Ê”Ìÿ √“—«— «·„Õ—— -->
+<!-- ·Õ–› «·Â«ﬂ ‰Õ–› «·”ÿ— «· «·Ì -->
+<center>
+<!-- Â«ﬂ ⁄«„ ‹ “Ì«œ… ⁄—÷ «·„Õ—— ·⁄—÷ «·’›Õ… -->
+<!-- ·Õ–› «·Â«ﬂ Ì „ Õ–› „« Ì·Ì „‰ «·”ÿ— «· «·Ì width="100%" -->
+<table cellpadding="0" cellspacing="0" border="0" width="100%">
+<tr>
+ <td id="vB_Editor_001" class="vBulletin_editor" width="100%">
+  <div id="vB_Editor_001_controls" class="controlbar">
+   <table cellpadding="0" cellspacing="0" border="0">
+   <tr>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_removeformat"><img src="7kaya-free/editor/removeformat.gif" width="21" height="20" alt="≈·€«¡  ‰”Ìﬁ «·‰’" /></div></td>
+   
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td>
+   
+   
+    <td><div class="imagebutton" id="vB_Editor_001_popup_fontname" title="«·ŒÿÊÿ">
+     <table cellpadding="0" cellspacing="0" border="0">
+     <tr>
+      <td class="popup_feedback"><div id="vB_Editor_001_font_out" style="width:91px">&nbsp;</div></td>
+      <td class="popup_pickbutton"><img src="7kaya-free/editor/menupop.gif" width="11" height="16" alt="" /></td>
+     </tr>
+     </table>
+    </div></td>
+   
+   
+    <td><div class="imagebutton" id="vB_Editor_001_popup_fontsize" title="«·√ÕÃ«„">
+     <table cellpadding="0" cellspacing="0" border="0">
+     <tr>
+      <td class="popup_feedback"><div id="vB_Editor_001_size_out" style="width:25px">&nbsp;</div></td>
+      <td class="popup_pickbutton"><img src="7kaya-free/editor/menupop.gif" width="11" height="16" alt="" /></td>
+     </tr>
+     </table>
+    </div></td>
+   
+   
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td>
+    <td><div class="imagebutton" id="vB_Editor_001_popup_forecolor" title="«·√·Ê«‰">
+     <table cellpadding="0" cellspacing="0" border="0">
+     <tr>
+      <td id="vB_Editor_001_color_out"><img src="7kaya-free/editor/color.gif" width="21" height="16" alt="" /><br /><img src="clear.gif" id="vB_Editor_001_color_bar" alt="" style="background-color:black" width="21" height="4" /></td>
+      <td class="alt_pickbutton"><img src="7kaya-free/editor/menupop.gif" width="11" height="16" alt="" /></td>
+     </tr>
+     </table>
+    </div></td>
+   
+   
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td>
+    <td><div class="imagebutton" id="vB_Editor_001_popup_smilie" title="«·«» ”«„« ">
+     <table cellpadding="0" cellspacing="0" border="0">
+     <tr>
+      <td><img src="7kaya-free/editor/smilie.gif" alt="" width="21" height="20" /></td>
+      <td class="alt_pickbutton"><img src="7kaya-free/editor/menupop.gif" width="11" height="16" alt="" /></td>
+     </tr>
+     </table>
+    </div></td>
+   
+   
+   
+    <!--
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_cut"><img src="7kaya-free/editor/cut.gif" width="21" height="20" alt="ﬁ’" /></div></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_copy"><img src="7kaya-free/editor/copy.gif" width="21" height="20" alt="‰”Œ" /></div></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_paste"><img src="7kaya-free/editor/paste.gif" width="21" height="20" alt="·’ﬁ" /></div></td>
+    -->
+ 
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_undo"><img src="7kaya-free/editor/undo.gif" width="21" height="20" alt=" —«Ã⁄" /></div></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_redo"><img src="7kaya-free/editor/redo.gif" width="21" height="20" alt="«⁄«œ…" /></div></td>
+<!-- Â«ﬂ ⁄«„  Ê”Ìÿ √“—«— «·„Õ—— -->
+<!--  „ Õ–› «·”ÿ— «· «·Ì ÊÌ⁄«œ ·Õ–› «·Â«ﬂ -->
+<!-- <td width="100%">&nbsp;</td> -->
+   
+    <td>
+     <div class="imagebutton" id="vB_Editor_001_cmd_resize_0_100"><img src="7kaya-free/editor/resize_0.gif" width="21" height="9" alt=" ﬁ·Ì’ «·„”«Õ…" /></div>
+     <div class="imagebutton" id="vB_Editor_001_cmd_resize_1_100"><img src="7kaya-free/editor/resize_1.gif" width="21" height="9" alt=" Ê”Ì⁄ «·„”«Õ…" /></div>
+    </td>
+   
+   </tr>
+   </table>
+   
+   <table cellpadding="0" cellspacing="0" border="0">
+   <tr>
+   
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_bold"><img src="7kaya-free/editor/bold.gif" width="21" height="20" alt="⁄—Ì÷" /></div></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_italic"><img src="7kaya-free/editor/italic.gif" width="21" height="20" alt="„«∆·" /></div></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_underline"><img src="7kaya-free/editor/underline.gif" width="21" height="20" alt="‰’  Õ Â Œÿ" /></div></td>
+   
+   
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td>
+    
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_justifyright"><img src="7kaya-free/editor/justifyright.gif" width="21" height="20" alt="„Õ«–«… ≈·Ï «·Ì„Ì‰" /></div></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_justifycenter"><img src="7kaya-free/editor/justifycenter.gif" width="21" height="20" alt=" Ê”Ìÿ" /></div></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_justifyleft"><img src="7kaya-free/editor/justifyleft.gif" width="21" height="20" alt="„Õ«–«… ≈·Ï «·Ì”«—" /></div></td>
+    
+   
+   
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td>
+   
+   
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_insertorderedlist"><img src="7kaya-free/editor/insertorderedlist.gif" width="21" height="20" alt="ﬁ«∆„… »«·√—ﬁ«„" /></div></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_insertunorderedlist"><img src="7kaya-free/editor/insertunorderedlist.gif" width="21" height="20" alt="ﬁ«∆„… „‰ﬁÊÿ…" /></div></td>
+   
+   
+    
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_outdent"><img src="7kaya-free/editor/indent.gif" width="21" height="20" alt=" ﬁ·Ì· «·„”«›… ·»œ«Ì… «·”ÿ—" /></div></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_indent"><img src="7kaya-free/editor/outdent.gif" width="21" height="20" alt="“Ì«œ… «·„”«›… ·»œ«Ì… «·”ÿ—" /></div></td>
+    
+   
+   
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td>
+    
+     <td><div class="imagebutton" id="vB_Editor_001_cmd_createlink"><img src="7kaya-free/editor/createlink.gif" width="21" height="20" alt="≈œŒ«· —«»ÿ" /></div></td>
+     <td><div class="imagebutton" id="vB_Editor_001_cmd_unlink"><img src="7kaya-free/editor/unlink.gif" width="21" height="20" alt="Õ–› «·—«»ÿ" /></div></td>
+     <td><div class="imagebutton" id="vB_Editor_001_cmd_email"><img src="7kaya-free/editor/email.gif" width="21" height="20" alt="≈œ—«Ã —«»ÿ »—Ìœ ≈·ﬂ —Ê‰Ì" /></div></td>
+    
+    
+     <td><div class="imagebutton" id="vB_Editor_001_cmd_insertimage"><img src="7kaya-free/editor/insertimage.gif" width="21" height="20" alt="≈œ—«Ã ’Ê—…" /></div></td>
+    
+   
+   
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td>
+    <td><div class="imagebutton" id="vB_Editor_001_cmd_wrap0_quote"><img src="7kaya-free/editor/quote.gif" width="21" height="20" alt="≈œ—«Ã [«ﬁ »«”]" /></div></td>
+   
+   
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td>    
+    
+     <td><div class="imagebutton" id="vB_Editor_001_cmd_wrap0_code"><img src="7kaya-free/editor/code.gif" width="21" height="20" alt="≈œ—«Ã [CODE]" /></div></td>
+    
+    
+     <td><div class="imagebutton" id="vB_Editor_001_cmd_wrap0_html"><img src="7kaya-free/editor/html.gif"  width="21" height="20" alt="≈œ—«Ã [ﬂÊœ HTML]" /></div></td>
+    
+    
+     <td><div class="imagebutton" id="vB_Editor_001_cmd_wrap0_php"><img src="7kaya-free/editor/php.gif" width="21" height="20" alt="≈œ—«Ã [ﬂÊœ PHP]" /></div></td>
+    
+   
+    <td><img src="7kaya-free/editor/separator.gif" width="6" height="20" alt="" /></td> 
+    
+</tr></table><table><tr>
+
+<!-- text -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_inserttext"><img src="mwaextraedit2/buttons/text.gif" width="21" height="20" alt=" ‰”Ìﬁ «·‰’ »ÿ—Ìﬁ… —«∆⁄… Ê«Õ —«›Ì… »≈ÿ«— ÊŒ·›Ì… Ê ‰”Ìﬁ ﬂ«„·" /></div></td>
+<!-- / text -->
+
+<!-- poem -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertpoem"><img src="mwaextraedit2/buttons/poem.gif" width="21" height="20" alt=" ‰”Ìﬁ «·ﬁ’Ìœ… «·‘⁄—Ì… ÊÌÃ»  ÕœÌœ «·ﬁ’Ìœ… „⁄ ›’· ‘ÿ—Ì ﬂ· »Ì  »⁄·«„… Ì”«ÊÌ =" /></div></td>
+<!-- / poem -->
+
+<!-- gradient -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertgradient"><img src="mwaextraedit2/buttons/gradient.gif" width="21" height="20" alt="≈Œ Ì«—  œ—Ã ·Ê‰Ì ··‰’" /></div></td>
+<!-- / gradient -->
+
+<!-- frame -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertframe"><img src="mwaextraedit2/buttons/frame.gif" width="21" height="20" alt="·≈œ—«Ã ≈ÿ«— ÕÊ· «·‰’" /></div></td>
+<!-- / frame -->
+
+<!-- table -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_inserttable"><img src="mwaextraedit2/buttons/table.gif" width="21" height="20" alt="·≈œ—«Ã ÃœÊ· ›Ì «·„Ê÷Ê⁄" /></div></td>
+<!-- / table -->
+
+<!-- flash ⁄«œÌ -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertflash"><img src="mwaextraedit2/buttons/flash.gif" width="21" height="20" alt="·≈œ—«Ã ›·«‘ Ì „ ⁄—÷Â „»«‘—… ›Ì «·„Ê÷Ê⁄ »ÿ—Ìﬁ… ⁄«œÌ…" /></div></td>
+<!-- / flash ⁄«œÌ -->
+
+<!-- flash ‘›«› -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertflash1"><img src="mwaextraedit2/buttons/flash1.gif" width="21" height="20" alt="·≈œ—«Ã ›·«‘ ‘›«› Ì „ ⁄—÷Â „»«‘—… ›Ì «·„Ê÷Ê⁄ »ÿ—Ìﬁ… ⁄«œÌ…" /></div></td>
+<!-- / flash ‘›«› -->
+
+<!-- flash „ÿÊ— -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertflash2"><img src="mwaextraedit2/buttons/flash2.gif" width="21" height="20" alt="·≈œ—«Ã ›·«‘ Ì „ ⁄—÷Â ›Ì ’›Õ… „” ﬁ·Â »ÿ—Ìﬁ… Ã„Ì·Â" /></div></td>
+<!-- / flash „ÿÊ— -->
+
+<!-- youtube -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertyoutube"><img src="mwaextraedit2/buttons/youtube.gif" width="21" height="20" alt="≈œ—«Ã „·› ›ÌœÌÊ „‰ „Ê«ﬁ⁄ «·›ÌœÊ „À· youtube ÊÌ«ÂÊÊ ÊﬁÊﬁ· Ê€Ì—Â«" /></div></td>
+<!-- / youtube -->
+
+<!-- rplayer -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertrplayer"><img src="mwaextraedit2/buttons/rplayer.gif" width="21" height="20" alt="≈œ—«Ã „·› —Ì· »·«Ì—" /></div></td>
+<!-- / rplayer -->
+
+<!-- media -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertmedia"><img src="mwaextraedit2/buttons/media.gif" width="21" height="20" alt="≈œ—«Ã „·› „œÌ« »·«Ì—" /></div></td>
+<!-- / media -->
+
+<!-- bimg -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertbimg"><img src="mwaextraedit2/buttons/bimg.gif" width="21" height="20" alt="≈œ—«Ã ’Ê—… ﬂ»Ì—Â Ê⁄—÷Â« „’€—Â" /></div></td>
+<!-- / bimg -->
+
+<!-- imgr -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertimgr"><img src="mwaextraedit2/buttons/imgr.gif" width="21" height="20" alt="≈œ—«Ã ’Ê—… Ê„Õ«–« Â« Ì„Ì‰ «·‰’" /></div></td>
+<!-- / imgr -->
+
+<!-- imgl -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertimgl"><img src="mwaextraedit2/buttons/imgl.gif" width="21" height="20" alt="≈œ—«Ã ’Ê—… Ê„Õ«–« Â« Ì”«— «·‰’" /></div></td>
+<!-- / imgl -->
+
+<!-- code -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertcode"><img src="mwaextraedit2/buttons/code.gif" width="21" height="20" alt="≈œ—«Ã ‰’ ﬂÊœ" /></div></td>
+<!-- / code -->
+
+<!-- php -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertphp"><img src="mwaextraedit2/buttons/php.gif" width="21" height="20" alt="≈œ—«Ã ‰’ »Ì ≈ ‘ »Ì" /></div></td>
+<!-- / php -->
+
+<!-- html -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_inserthtml"><img src="mwaextraedit2/buttons/html.gif" width="21" height="20" alt="≈œ—«Ã ‰’ Â „·" /></div></td>
+<!-- / html -->
+
+</tr><tr>
+
+<!-- justify -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertjustify"><img src="mwaextraedit2/buttons/justify.gif" width="21" height="20" alt=" ‰”Ìﬁ «·‰’ »„Õ«–«… «·√ÿ—«›" /></div></td>
+<!-- / justify -->
+
+<!-- right -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertright"><img src="mwaextraedit2/buttons/right.gif" width="21" height="20" alt=" ‰”Ìﬁ «·‰’ »„Õ«–«… «·√ÿ—«›" /></div></td>
+<!-- / right -->
+
+<!-- center -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertcenter"><img src="mwaextraedit2/buttons/center.gif" width="21" height="20" alt=" ‰”Ìﬁ «·‰’ »„Õ«–«… «·√ÿ—«›" /></div></td>
+<!-- / center -->
+
+<!-- left -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertleft"><img src="mwaextraedit2/buttons/left.gif" width="21" height="20" alt=" ‰”Ìﬁ «·‰’ »„Õ«–«… «·√ÿ—«›" /></div></td>
+<!-- / left -->
+
+<!-- rtl -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertrtl"><img src="mwaextraedit2/buttons/rtl.gif" width="21" height="20" alt=" €ÌÌ— ≈ Ã«Â «·„Õ—— ··Ì„Ì‰" /></div></td>
+<!-- / rtl -->
+
+<!-- ltr -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertltr"><img src="mwaextraedit2/buttons/ltr.gif" width="21" height="20" alt=" €ÌÌ— ≈ Ã«Â «·„Õ—— ··Ì”«—" /></div></td>
+<!-- / ltr -->
+
+<!-- keyb -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb"><img src="mwaextraedit2/buttons/keyb.gif" width="21" height="20" alt="⁄—÷ Ê≈Œ›«¡ ·ÊÕ… «·„›« ÌÕ «·⁄—»Ì… ·„‰ ·« Ì„ ·ﬂ ÃÂ«“ „⁄—»" /></div></td>
+<!-- / keyb -->
+
+<!-- copy -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_copy"><img src="mwaextraedit2/buttons/copy.gif" width="21" height="20" alt="‰”Œ «·‰’ «·„Õœœ ··–«ﬂ—…" /></div></td>
+<!-- / copy -->
+
+<!-- cut -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_cut"><img src="mwaextraedit2/buttons/cut.gif" width="21" height="20" alt="ﬁ’ «·‰’ «·„Õœœ „⁄ «·‰”Œ ··–«ﬂ—Â" /></div></td>
+<!-- / cut -->
+
+<!-- delete -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_delete"><img src="mwaextraedit2/buttons/delete.gif" width="21" height="20" alt="Õ–› «·‰’ «·„Õœœ" /></div></td>
+<!-- / delete -->
+
+<!-- paste -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_paste"><img src="mwaextraedit2/buttons/paste.gif" width="21" height="20" alt="·’ﬁ „Õ ÊÌ«  «·–«ﬂ—Â" /></div></td>
+<!-- / paste -->
+
+<!-- line -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertline"><img src="mwaextraedit2/buttons/line.gif" width="21" height="20" alt="≈œ—«Ã Œÿ ›«’·" /></div></td>
+<!-- / line -->
+
+<!-- colorpicker -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertcolorpicker"><img src="mwaextraedit2/buttons/colorpicker.gif" width="21" height="20" alt="√œ«   ·ÊÌ‰ «·‰’ «·„ÿÊ—Â" /></div></td>
+<!-- / colorpicker -->
+
+<!-- mark -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertmark"><img src="mwaextraedit2/buttons/mark.gif" width="21" height="20" alt="√œ«   ·ÊÌ‰ Œ·›Ì… «·‰’" /></div></td>
+<!-- / mark -->
+
+<!-- web -->
+
+<!-- / web -->
+
+<!-- quran -->
+
+<!-- / quran -->
+
+<!-- plain -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_plain"><img src="mwaextraedit2/buttons/plain.gif" width="21" height="20" alt="≈“«·… «· ‰”Ìﬁ" /></div></td>
+<!-- plain -->
+
+</tr><tr>
+
+<!-- hide -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_inserthide"><img src="mwaextraedit2/buttons/hides.gif" width="21" height="20" alt="·≈œ—«Ã „Õ ÊÏ „Œ›Ì ·« Ì„ﬂ‰ „‘«Âœ Â ﬁ»· «·—œ ⁄·Ï «·„Ê÷Ê⁄" /></div></td>
+<!-- / hide -->
+
+<!-- fieldset -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertfieldset"><img src="mwaextraedit2/buttons/fieldset.gif" width="21" height="20" alt="Ê÷⁄ «·‰’ ›Ì ≈ÿ«— »⁄‰Ê«‰" /></div></td>
+<!-- / fieldset -->
+
+<!-- info -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertinfo"><img src="mwaextraedit2/buttons/info.gif" width="21" height="20" alt="≈œ—«Ã „·«ÕŸ… ›Ì «·„Ê÷Ê⁄" /></div></td>
+<!-- / info -->
+
+<!-- caution -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertcaution"><img src="mwaextraedit2/buttons/caution.gif" width="21" height="20" alt="≈œ—«Ã  ‰»ÌÂ ›Ì «·„Ê÷Ê⁄" /></div></td>
+<!-- / caution -->
+
+<!-- warning -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertwarning"><img src="mwaextraedit2/buttons/warning.gif" width="21" height="20" alt="≈œ—«Ã  Õ–Ì— ›Ì «·„Ê÷Ê⁄" /></div></td>
+<!-- / warning -->
+
+<!-- glint -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertglint"><img src="mwaextraedit2/buttons/glint.gif" width="21" height="20" alt="·≈œ—«Ã ‰’ „÷Ì¡" /></div></td>
+<!-- / glint -->
+
+<!-- glow -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertglow"><img src="mwaextraedit2/buttons/glow.gif" width="21" height="20" alt="·≈œ—«Ã ‰’ »Ê÷⁄ ≈‘⁄«⁄Ì" /></div></td>
+<!-- / glow -->
+
+<!-- glow1 -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertglow1"><img src="mwaextraedit2/buttons/glow1.gif" width="21" height="20" alt="·≈œ—«Ã ‰’ „Õœœ »·Ê‰" /></div></td>
+<!-- / glow1 -->
+
+<!-- rainbow -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertrainbow"><img src="mwaextraedit2/buttons/rainbow.gif" width="21" height="20" alt="≈œ—«Ã ‰’ Ì÷Ì¡ ⁄‰œ „—Ê— «·„«Ê” ›ÊﬁÂ »ÿ—Ìﬁ… Ã„Ì·Â" /></div></td>
+<!-- / rainbow -->
+
+<!-- read -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertread"><img src="mwaextraedit2/buttons/read.gif" width="21" height="20" alt="⁄—÷ ‰’ ›Ì ≈ÿ«— „⁄  €ÌÌ— ·Ê‰ «·‰’ Ê·Ê‰ Œ·›Ì… «·‰’ ⁄‰œ ﬂ· ⁄—÷ ··„Ê÷Ê⁄" /></div></td>
+<!-- / read -->
+
+<!-- type -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_inserttype"><img src="mwaextraedit2/buttons/type.gif" width="21" height="20" alt="⁄—÷ ‰’ ›Ì ≈ÿ«— „⁄  €ÌÌ— ·Ê‰ «·‰’ Ê·Ê‰ Œ·›Ì… «·‰’ ⁄‰œ ﬂ· ⁄—÷ ··„Ê÷Ê⁄ »ÿ—Ìﬁ… «·¬·… «·ﬂ« »…" /></div></td>
+<!-- / type -->
+
+<!-- marq -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertmarq"><img src="mwaextraedit2/buttons/marq.gif" width="21" height="20" alt="⁄—÷ ‰’ „ Õ—ﬂ ··√⁄·Ï ›Ì ≈ÿ«— „⁄  €ÌÌ— ·Ê‰ «·‰’ Ê·Ê‰ Œ·›Ì… «·‰’ ⁄‰œ ﬂ· ⁄—÷ ··„Ê÷Ê⁄" /></div></td>
+<!-- / marq -->
+
+<!-- bor -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertbor"><img src="mwaextraedit2/buttons/bor.gif" width="21" height="20" alt="·≈œ—«Ã ‰’ œ«Œ· ÃœÊ· „ ﬁÿ⁄ »ŒÌ«— «··Ê‰" /></div></td>
+<!-- / bor -->
+
+<!-- gdwl -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertgdwl"><img src="mwaextraedit2/buttons/gdwl.gif" width="21" height="20" alt="«÷«›… «ÿ«— Ì÷Ì¡ »«··Ê‰Ì‰ «·√Õ„— Ê«·√“—ﬁ ÕÊ· «·‰’" /></div></td>
+<!-- / gdwl -->
+
+<!-- motr -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertmotr"><img src="mwaextraedit2/buttons/motr.gif" width="21" height="20" alt="≈œ—«Ã ‰’ „ √—ÃÕ „‰ «·Ì„Ì‰ «·Ï «·Ì”«—" /></div></td>
+<!-- / motr -->
+
+<!-- motr1 -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertmotr1"><img src="mwaextraedit2/buttons/motr1.gif" width="21" height="20" alt="≈œ—«Ã ‰’ „ √—ÃÕ „‰ «·«”›· «·Ï «·«⁄·Ï" /></div></td>
+<!-- / motr1 -->
+
+<!-- mklb2 -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertmklb2"><img src="mwaextraedit2/buttons/mklb2.gif" width="21" height="20" alt="≈œ—«Ã ‰’ „ﬁ·Ê»" /></div></td>
+<!-- / mklb2 -->
+
+<!-- you -->
+
+<td><div class="imagebutton" id="vB_Editor_001_cmd_insertyou"><img src="mwaextraedit2/buttons/you.gif" width="21" height="20" alt="≈œ—«Ã ¬·Ì ·≈”„ ﬁ«—Ì¡ «·„Ê÷Ê⁄" /></div></td>
+<!-- / you -->
+
+<!-- «·⁄»«—«  «·Ã«Â“… -->
+
+<!-- «·⁄»«—«  «·Ã«Â“… -->
+
+<!-- keyboard -->
+
+</tr><tr><td colspan="50">
+<table align="center" id="keyboardTable" border="0" cellpadding="0" cellspacing="0" width="1px" style="display:none">
+<tr><td class="button">
+<!-- 12 times -->
+<table align="center" background="mwaextraedit2/buttons/key_1.gif" border="0" cellpadding="0" cellspacing="0" width="1px"><tr>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb1" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  «</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb2" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  »</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb3" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+   </div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb4" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  À</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb5" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  Ã</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb6" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  Õ</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb7" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  Œ</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb8" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  œ</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb9" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  –</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb10" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  —</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb11" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  “</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb12" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ”</div></div>
+</td>
+</tr></table>
+<!-- END OF 12 KEY -->
+<table align="center" background="mwaextraedit2/buttons/key_1.gif" border="0" cellpadding="0" cellspacing="0" width="1px"><tr>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb13" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ‘</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb14" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ’</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb15" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ÷</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb16" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ÿ</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb17" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  Ÿ</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb18" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ⁄</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb19" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  €</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb20" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ›</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb21" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ﬁ</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb22" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ﬂ</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb23" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ·</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb24" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  „</div></div>
+</td>
+</tr></table>
+<!-- END OF 12 KEY -->
+<table align="center" background="mwaextraedit2/buttons/key_1.gif" border="0" cellpadding="0" cellspacing="0" width="1px"><tr>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb25" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ‰</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb26" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  Â</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb27" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  Ê</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb28" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  Ì</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb29" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  …</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb30" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  √</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb31" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ≈</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb32" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ¬</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb33" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ¡</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb34" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ƒ</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb35" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  ∆</div></div>
+</td>
+<td height="29px">
+<div style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:30px;height:20px;color:black">
+<div class="imagebutton" id="vB_Editor_001_cmd_insertkeyb36" style="font-size:x-small;font-family:arial;font-weight:bold;cursor:hand;text-align:center;width:15px;height:15px;color:black">
+  Ï</div></div>
+</td>
+</tr></table>
+
+<SCRIPT LANGUAGE="JavaScript">
+var selkeyb1 = '«';
+var selkeyb2 = '»';
+var selkeyb3 = ' ';
+var selkeyb4 = 'À';
+var selkeyb5 = 'Ã';
+var selkeyb6 = 'Õ';
+var selkeyb7 = 'Œ';
+var selkeyb8 = 'œ';
+var selkeyb9 = '–';
+var selkeyb10 = '—';
+var selkeyb11 = '“';
+var selkeyb12 = '”';
+var selkeyb13 = '‘';
+var selkeyb14 = '’';
+var selkeyb15 = '÷';
+var selkeyb16 = 'ÿ';
+var selkeyb17 = 'Ÿ';
+var selkeyb18 = '⁄';
+var selkeyb19 = '€';
+var selkeyb20 = '›';
+var selkeyb21 = 'ﬁ';
+var selkeyb22 = 'ﬂ';
+var selkeyb23 = '·';
+var selkeyb24 = '„';
+var selkeyb25 = '‰';
+var selkeyb26 = 'Â';
+var selkeyb27 = 'Ê';
+var selkeyb28 = 'Ì';
+var selkeyb29 = '…';
+var selkeyb30 = '√';
+var selkeyb31 = '≈';
+var selkeyb32 = '¬';
+var selkeyb33 = '¡';
+var selkeyb34 = 'ƒ';
+var selkeyb35 = '∆';
+var selkeyb36 = 'Ï';
+</SCRIPT>
+
+<!-- END OF 12 KEY -->			
+</td></tr></table></td></tr><tr>
+<!-- / keyboard -->
+
+<script type="text/javascript" src="mwaextraedit2/mwaextraedit2_textedit.js"></script>
+
+<SCRIPT LANGUAGE="JavaScript">
+var mwabburl = 'http://vb.7mry.com/';
+</SCRIPT>
+
+   </tr>
+   </table>
+   
+  </div>
+<!-- Â«ﬂ ⁄«„  Ê”Ìÿ √“—«— «·„Õ—— -->
+<!-- ·Õ–› «·Â«ﬂ ‰Õ–› «·”ÿ— «· «·Ì -->
+</center>
+  <table cellpadding="0" cellspacing="0" border="0" width="100%">
+  <tr valign="top">
+   <td class="controlbar">
+    <textarea name="message" id="vB_Editor_001_textarea" rows="10" cols="60" style="display:block; width:540px; height:250px" tabindex="1" dir="rtl"></textarea>
+   </td>
+
+<!-- Â«ﬂ ⁄«„ ‹ «·≈» ”«„«  «”›· «·„Õ—— -->
+</tr><tr>
+<!-- Â«ﬂ ⁄«„ ‹ «·≈» ”«„«  «”›· «·„Õ—— -->
+<td class="controlbar">
+
+<fieldset id="vB_Editor_001_smiliebox" title="«·«» ”«„« ">
+	<legend>«·«» ”«„« </legend>
+	<table cellpadding="4" cellspacing="0" border="0" align="center">
+	<tr align="center" valign="bottom">
+<td><img src="images/smilies/wub[1].gif" id="vB_Editor_001_smilie_107" alt=":wub[1]:" title="Wub[1]" border="0" class="inlineimg" /></td><td><img src="images/smilies/bttiggrin.gif" id="vB_Editor_001_smilie_43" alt=":bttiggrin:" title="Bttiggrin" border="0" class="inlineimg" /></td><td><img src="images/smilies/no[1].gif" id="vB_Editor_001_smilie_75" alt=":no[1]:" title="No[1]" border="0" class="inlineimg" /></td><td><img src="images/smilies/672452.gif" id="vB_Editor_001_smilie_32" alt=":672452:" title="672452" border="0" class="inlineimg" /></td><td><img src="images/smilies/j.gif" id="vB_Editor_001_smilie_64" alt=":j:" title="J" border="0" class="inlineimg" /></td>
+</tr>
+<tr align="center" valign="bottom">
+<td><img src="images/smilies/sleeeeeeb.png" id="vB_Editor_001_smilie_96" alt=":sleeeeeeb:" title="Sleeeeeeb" border="0" class="inlineimg" /></td><td><img src="images/smilies/060.gif" id="vB_Editor_001_smilie_21" alt=":060:" title="060" border="0" class="inlineimg" /></td><td><img src="images/smilies/FF.gif" id="vB_Editor_001_smilie_53" alt=":FF:" title="FF" border="0" class="inlineimg" /></td><td><img src="images/smilies/patch_pleur1.gif" id="vB_Editor_001_smilie_85" alt=":patch_pleur1:" title="Patch Pleur1" border="0" class="inlineimg" /></td><td><img src="images/smilies/unsure[1].gif" id="vB_Editor_001_smilie_106" alt=":unsure[1]:" title="Unsure[1]" border="0" class="inlineimg" /></td>
+</tr>
+<tr align="center" valign="bottom">
+<td><img src="images/smilies/bo0o0o0o0o0om.png" id="vB_Editor_001_smilie_42" alt=":bo0o0o0o0o0om:" title="Bo0o0o0o0o0om" border="0" class="inlineimg" /></td><td><img src="images/smilies/msn-wink.gif" id="vB_Editor_001_smilie_74" alt=":msn-wink:" title="Msn Wink" border="0" class="inlineimg" /></td><td><img src="images/smilies/525254.gif" id="vB_Editor_001_smilie_31" alt=":525254:" title="525254" border="0" class="inlineimg" /></td><td><img src="images/smilies/icon28.gif" id="vB_Editor_001_smilie_63" alt=":icon28:" title="Icon28" border="0" class="inlineimg" /></td><td><img src="images/smilies/shutup.gif" id="vB_Editor_001_smilie_95" alt=":shutup:" title="Shutup" border="0" class="inlineimg" /></td>
+</tr>
+<tr align="center" valign="bottom">
+<td><img src="images/smilies/57.gif" id="vB_Editor_001_smilie_20" alt=":57:" title="57" border="0" class="inlineimg" /></td><td><img src="images/smilies/eh_s(10)[1].gif" id="vB_Editor_001_smilie_52" alt=":eh_s(10)[1]:" title="Eh S(10)[1]" border="0" class="inlineimg" /></td><td><img src="images/smilies/patch_pleur.gif" id="vB_Editor_001_smilie_84" alt=":patch_pleur:" title="Patch Pleur" border="0" class="inlineimg" /></td><td><img src="images/smilies/ttt[1].gif" id="vB_Editor_001_smilie_105" alt=":ttt[1]:" title="Ttt[1]" border="0" class="inlineimg" /></td><td><img src="images/smilies/blush.gif" id="vB_Editor_001_smilie_41" alt=":blush:" title="Blush" border="0" class="inlineimg" /></td>
+</tr>
+
+	
+	<tr>
+		<td class="smallfont" colspan="5">[<a href="#" onclick="vB_Editor['vB_Editor_001'].open_smilie_window(smiliewindow_x, smiliewindow_y); return false" title="⁄—÷ «·≈» ”«„«  „‰ 20 ≈·Ï 110.">«·„“Ìœ</a>]</td>
+	</tr>
+	
+	</table>
+</fieldset>
+
+</td>
+   
+  </tr>
+  </table>
+ </td>
+</tr>
+</table>
+<input type="hidden" name="wysiwyg" id="vB_Editor_001_mode" value="0" />
+<script type="text/javascript">
+<!--
+vB_Editor['vB_Editor_001'] = new vB_Text_Editor('vB_Editor_001', 0, '35', '1', undefined, '');
+//-->
+</script>
+		<!-- / message area -->
+
+		
+		<fieldset class="fieldset" style="margin-top: 6px">
+			<legend>«·ﬂ·„«  «·œ·«·Ì… (Tags)</legend>
+			<div style="padding:3px">
+				<div>«›’· »Ì‰ «·ﬂ·„«  «·œ·«·Ì… »«” Œœ«„ ›«’·….</div>
+				<span id="tag_add"><input type="text" class="bginput" name="taglist" id="tag_add_input" value="" size="40" tabindex="1" /></span>
+				
+		</div>
+
+			
+				<div id="tag_add_menu" class="vbmenu_popup" style="display:none"></div>
+				<script type="text/javascript" src="clientscript/vbulletin_ajax_tagsugg.js?v=383"></script>
+				<script type="text/javascript">
+				<!--
+				vbmenu_register('tag_add', true);
+				tag_add_comp = new vB_AJAX_TagSuggest('tag_add_comp', 'tag_add_input', 'tag_add');
+				tag_add_comp.allow_multiple = true;
+				tag_add_comp.set_delimiters('. - _ /');
+				//-->
+				</script>
+			
+		</fieldset>
+		
+
+		
+	<script type="text/javascript">
+	<!--
+	function swap_posticon(imgid)
+	{
+		var out = fetch_object("display_posticon");
+		var img = fetch_object(imgid);
+		if (img)
+		{
+			out.src = img.src;
+			out.alt = img.alt;
+		}
+		else
+		{
+			out.src = "clear.gif";
+			out.alt = "";
+		}
+	}
+	// -->
+	</script>
+	<fieldset class="fieldset" style="margin-top: 6px">
+		<legend>√ÌﬁÊ‰«  «·„‘«—ﬂ…</legend>
+		<div style="padding:3px">
+			<table cellpadding="0" cellspacing="1" border="0" width="95%">
+			<tr>
+				<td colspan="15"><div style="margin-bottom:3px">Ì„ﬂ‰ﬂ ≈Œ Ì«— √ÌﬁÊ‰… „‰ «·ﬁ«∆„… «· «·Ì…:</div></td>
+			</tr>
+			<tr>
+				<td width="12%" nowrap="nowrap"><label for="rb_iconid_0"><input type="radio" name="iconid" value="0" id="rb_iconid_0" tabindex="1" onclick="swap_posticon(null)" checked="checked" />»œÊ‰ √ÌﬁÊ‰… &nbsp; &nbsp;</label></td>
+				<td><input type="radio" name="iconid" value="78" id="rb_iconid_78" tabindex="1" onclick="swap_posticon('pi_78')"  /></td>
+<td width="12%"><label for="rb_iconid_78"><img src="images/icons/ZZ7.gif" alt="ZZ7" id="pi_78" onclick="rb_iconid_78.click()" /></label></td>
+<td><input type="radio" name="iconid" value="61" id="rb_iconid_61" tabindex="1" onclick="swap_posticon('pi_61')"  /></td>
+<td width="12%"><label for="rb_iconid_61"><img src="images/icons/yaaam (4).gif" alt="Yaaam (4)" id="pi_61" onclick="rb_iconid_61.click()" /></label></td>
+<td><input type="radio" name="iconid" value="60" id="rb_iconid_60" tabindex="1" onclick="swap_posticon('pi_60')"  /></td>
+<td width="12%"><label for="rb_iconid_60"><img src="images/icons/yaaam (3).gif" alt="Yaaam (3)" id="pi_60" onclick="rb_iconid_60.click()" /></label></td>
+<td><input type="radio" name="iconid" value="59" id="rb_iconid_59" tabindex="1" onclick="swap_posticon('pi_59')"  /></td>
+<td width="12%"><label for="rb_iconid_59"><img src="images/icons/yaaam (1).gif" alt="Yaaam (1)" id="pi_59" onclick="rb_iconid_59.click()" /></label></td>
+<td><input type="radio" name="iconid" value="58" id="rb_iconid_58" tabindex="1" onclick="swap_posticon('pi_58')"  /></td>
+<td width="12%"><label for="rb_iconid_58"><img src="images/icons/shar73.gif" alt="Shar73" id="pi_58" onclick="rb_iconid_58.click()" /></label></td>
+<td><input type="radio" name="iconid" value="57" id="rb_iconid_57" tabindex="1" onclick="swap_posticon('pi_57')"  /></td>
+<td width="12%"><label for="rb_iconid_57"><img src="images/icons/Sci-Fi.gif" alt="Sci Fi" id="pi_57" onclick="rb_iconid_57.click()" /></label></td>
+<td><input type="radio" name="iconid" value="56" id="rb_iconid_56" tabindex="1" onclick="swap_posticon('pi_56')"  /></td>
+<td width="12%"><label for="rb_iconid_56"><img src="images/icons/r3.gif" alt="R3" id="pi_56" onclick="rb_iconid_56.click()" /></label></td>
+</tr><tr><td>&nbsp;</td><td><input type="radio" name="iconid" value="55" id="rb_iconid_55" tabindex="1" onclick="swap_posticon('pi_55')"  /></td>
+<td width="12%"><label for="rb_iconid_55"><img src="images/icons/q (15).gif" alt="Q (15)" id="pi_55" onclick="rb_iconid_55.click()" /></label></td>
+<td><input type="radio" name="iconid" value="54" id="rb_iconid_54" tabindex="1" onclick="swap_posticon('pi_54')"  /></td>
+<td width="12%"><label for="rb_iconid_54"><img src="images/icons/q (14).gif" alt="Q (14)" id="pi_54" onclick="rb_iconid_54.click()" /></label></td>
+<td><input type="radio" name="iconid" value="53" id="rb_iconid_53" tabindex="1" onclick="swap_posticon('pi_53')"  /></td>
+<td width="12%"><label for="rb_iconid_53"><img src="images/icons/q (10).gif" alt="Q (10)" id="pi_53" onclick="rb_iconid_53.click()" /></label></td>
+<td><input type="radio" name="iconid" value="52" id="rb_iconid_52" tabindex="1" onclick="swap_posticon('pi_52')"  /></td>
+<td width="12%"><label for="rb_iconid_52"><img src="images/icons/q (4).gif" alt="Q (4)" id="pi_52" onclick="rb_iconid_52.click()" /></label></td>
+<td><input type="radio" name="iconid" value="51" id="rb_iconid_51" tabindex="1" onclick="swap_posticon('pi_51')"  /></td>
+<td width="12%"><label for="rb_iconid_51"><img src="images/icons/q (2).gif" alt="Q (2)" id="pi_51" onclick="rb_iconid_51.click()" /></label></td>
+<td><input type="radio" name="iconid" value="50" id="rb_iconid_50" tabindex="1" onclick="swap_posticon('pi_50')"  /></td>
+<td width="12%"><label for="rb_iconid_50"><img src="images/icons/poet2.gif" alt="Poet2" id="pi_50" onclick="rb_iconid_50.click()" /></label></td>
+<td><input type="radio" name="iconid" value="49" id="rb_iconid_49" tabindex="1" onclick="swap_posticon('pi_49')"  /></td>
+<td width="12%"><label for="rb_iconid_49"><img src="images/icons/po.gif" alt="Po" id="pi_49" onclick="rb_iconid_49.click()" /></label></td>
+</tr><tr><td>&nbsp;</td><td><input type="radio" name="iconid" value="48" id="rb_iconid_48" tabindex="1" onclick="swap_posticon('pi_48')"  /></td>
+<td width="12%"><label for="rb_iconid_48"><img src="images/icons/ognya.gif" alt="Ognya" id="pi_48" onclick="rb_iconid_48.click()" /></label></td>
+<td><input type="radio" name="iconid" value="62" id="rb_iconid_62" tabindex="1" onclick="swap_posticon('pi_62')"  /></td>
+<td width="12%"><label for="rb_iconid_62"><img src="images/icons/yaaam (5).gif" alt="Yaaam (5)" id="pi_62" onclick="rb_iconid_62.click()" /></label></td>
+<td><input type="radio" name="iconid" value="63" id="rb_iconid_63" tabindex="1" onclick="swap_posticon('pi_63')"  /></td>
+<td width="12%"><label for="rb_iconid_63"><img src="images/icons/yaaam (6).gif" alt="Yaaam (6)" id="pi_63" onclick="rb_iconid_63.click()" /></label></td>
+<td><input type="radio" name="iconid" value="77" id="rb_iconid_77" tabindex="1" onclick="swap_posticon('pi_77')"  /></td>
+<td width="12%"><label for="rb_iconid_77"><img src="images/icons/z7.gif" alt="Z7" id="pi_77" onclick="rb_iconid_77.click()" /></label></td>
+<td><input type="radio" name="iconid" value="76" id="rb_iconid_76" tabindex="1" onclick="swap_posticon('pi_76')"  /></td>
+<td width="12%"><label for="rb_iconid_76"><img src="images/icons/Z6.gif" alt="Z6" id="pi_76" onclick="rb_iconid_76.click()" /></label></td>
+<td><input type="radio" name="iconid" value="75" id="rb_iconid_75" tabindex="1" onclick="swap_posticon('pi_75')"  /></td>
+<td width="12%"><label for="rb_iconid_75"><img src="images/icons/Z3.gif" alt="Z3" id="pi_75" onclick="rb_iconid_75.click()" /></label></td>
+<td><input type="radio" name="iconid" value="74" id="rb_iconid_74" tabindex="1" onclick="swap_posticon('pi_74')"  /></td>
+<td width="12%"><label for="rb_iconid_74"><img src="images/icons/Z0.gif" alt="Z0" id="pi_74" onclick="rb_iconid_74.click()" /></label></td>
+</tr><tr><td>&nbsp;</td><td><input type="radio" name="iconid" value="73" id="rb_iconid_73" tabindex="1" onclick="swap_posticon('pi_73')"  /></td>
+<td width="12%"><label for="rb_iconid_73"><img src="images/icons/yaaam (23).gif" alt="Yaaam (23)" id="pi_73" onclick="rb_iconid_73.click()" /></label></td>
+<td><input type="radio" name="iconid" value="72" id="rb_iconid_72" tabindex="1" onclick="swap_posticon('pi_72')"  /></td>
+<td width="12%"><label for="rb_iconid_72"><img src="images/icons/yaaam (22).gif" alt="Yaaam (22)" id="pi_72" onclick="rb_iconid_72.click()" /></label></td>
+<td><input type="radio" name="iconid" value="71" id="rb_iconid_71" tabindex="1" onclick="swap_posticon('pi_71')"  /></td>
+<td width="12%"><label for="rb_iconid_71"><img src="images/icons/yaaam (18).gif" alt="Yaaam (18)" id="pi_71" onclick="rb_iconid_71.click()" /></label></td>
+<td><input type="radio" name="iconid" value="70" id="rb_iconid_70" tabindex="1" onclick="swap_posticon('pi_70')"  /></td>
+<td width="12%"><label for="rb_iconid_70"><img src="images/icons/yaaam (17).gif" alt="Yaaam (17)" id="pi_70" onclick="rb_iconid_70.click()" /></label></td>
+<td><input type="radio" name="iconid" value="69" id="rb_iconid_69" tabindex="1" onclick="swap_posticon('pi_69')"  /></td>
+<td width="12%"><label for="rb_iconid_69"><img src="images/icons/yaaam (15).gif" alt="Yaaam (15)" id="pi_69" onclick="rb_iconid_69.click()" /></label></td>
+<td><input type="radio" name="iconid" value="68" id="rb_iconid_68" tabindex="1" onclick="swap_posticon('pi_68')"  /></td>
+<td width="12%"><label for="rb_iconid_68"><img src="images/icons/yaaam (14).gif" alt="Yaaam (14)" id="pi_68" onclick="rb_iconid_68.click()" /></label></td>
+<td><input type="radio" name="iconid" value="67" id="rb_iconid_67" tabindex="1" onclick="swap_posticon('pi_67')"  /></td>
+<td width="12%"><label for="rb_iconid_67"><img src="images/icons/yaaam (13).gif" alt="Yaaam (13)" id="pi_67" onclick="rb_iconid_67.click()" /></label></td>
+</tr><tr><td>&nbsp;</td><td><input type="radio" name="iconid" value="66" id="rb_iconid_66" tabindex="1" onclick="swap_posticon('pi_66')"  /></td>
+<td width="12%"><label for="rb_iconid_66"><img src="images/icons/yaaam (12).gif" alt="Yaaam (12)" id="pi_66" onclick="rb_iconid_66.click()" /></label></td>
+<td><input type="radio" name="iconid" value="65" id="rb_iconid_65" tabindex="1" onclick="swap_posticon('pi_65')"  /></td>
+<td width="12%"><label for="rb_iconid_65"><img src="images/icons/yaaam (11).gif" alt="Yaaam (11)" id="pi_65" onclick="rb_iconid_65.click()" /></label></td>
+<td><input type="radio" name="iconid" value="64" id="rb_iconid_64" tabindex="1" onclick="swap_posticon('pi_64')"  /></td>
+<td width="12%"><label for="rb_iconid_64"><img src="images/icons/yaaam (9).gif" alt="Yaaam (9)" id="pi_64" onclick="rb_iconid_64.click()" /></label></td>
+<td><input type="radio" name="iconid" value="47" id="rb_iconid_47" tabindex="1" onclick="swap_posticon('pi_47')"  /></td>
+<td width="12%"><label for="rb_iconid_47"><img src="images/icons/nqash.gif" alt="Nqash" id="pi_47" onclick="rb_iconid_47.click()" /></label></td>
+<td><input type="radio" name="iconid" value="46" id="rb_iconid_46" tabindex="1" onclick="swap_posticon('pi_46')"  /></td>
+<td width="12%"><label for="rb_iconid_46"><img src="images/icons/nokta.gif" alt="Nokta" id="pi_46" onclick="rb_iconid_46.click()" /></label></td>
+<td><input type="radio" name="iconid" value="45" id="rb_iconid_45" tabindex="1" onclick="swap_posticon('pi_45')"  /></td>
+<td width="12%"><label for="rb_iconid_45"><img src="images/icons/nclinada.gif" alt="Nclinada" id="pi_45" onclick="rb_iconid_45.click()" /></label></td>
+<td><input type="radio" name="iconid" value="28" id="rb_iconid_28" tabindex="1" onclick="swap_posticon('pi_28')"  /></td>
+<td width="12%"><label for="rb_iconid_28"><img width="16" height="16" src="images/icons/icon1.gif" alt="Icon1" id="pi_28" onclick="rb_iconid_28.click()" /></label></td>
+</tr><tr><td>&nbsp;</td><td><input type="radio" name="iconid" value="27" id="rb_iconid_27" tabindex="1" onclick="swap_posticon('pi_27')"  /></td>
+<td width="12%"><label for="rb_iconid_27"><img src="images/icons/Crime.gif" alt="Crime" id="pi_27" onclick="rb_iconid_27.click()" /></label></td>
+<td><input type="radio" name="iconid" value="26" id="rb_iconid_26" tabindex="1" onclick="swap_posticon('pi_26')"  /></td>
+<td width="12%"><label for="rb_iconid_26"><img src="images/icons/Comedy.gif" alt="Comedy" id="pi_26" onclick="rb_iconid_26.click()" /></label></td>
+<td><input type="radio" name="iconid" value="25" id="rb_iconid_25" tabindex="1" onclick="swap_posticon('pi_25')"  /></td>
+<td width="12%"><label for="rb_iconid_25"><img src="images/icons/b19.gif" alt="B19" id="pi_25" onclick="rb_iconid_25.click()" /></label></td>
+<td><input type="radio" name="iconid" value="15" id="rb_iconid_15" tabindex="1" onclick="swap_posticon('pi_15')"  /></td>
+<td width="12%"><label for="rb_iconid_15"><img src="images/icons/1 (3).gif" alt="1 (3)" id="pi_15" onclick="rb_iconid_15.click()" /></label></td>
+<td><input type="radio" name="iconid" value="23" id="rb_iconid_23" tabindex="1" onclick="swap_posticon('pi_23')"  /></td>
+<td width="12%"><label for="rb_iconid_23"><img src="images/icons/11111.gif" alt="11111" id="pi_23" onclick="rb_iconid_23.click()" /></label></td>
+<td><input type="radio" name="iconid" value="22" id="rb_iconid_22" tabindex="1" onclick="swap_posticon('pi_22')"  /></td>
+<td width="12%"><label for="rb_iconid_22"><img src="images/icons/1.gif" alt="1" id="pi_22" onclick="rb_iconid_22.click()" /></label></td>
+<td><input type="radio" name="iconid" value="10" id="rb_iconid_10" tabindex="1" onclick="swap_posticon('pi_10')"  /></td>
+<td width="12%"><label for="rb_iconid_10"><img width="16" height="16" src="images/icons/icon10.gif" alt="Talking" id="pi_10" onclick="rb_iconid_10.click()" /></label></td>
+</tr><tr><td>&nbsp;</td><td><input type="radio" name="iconid" value="21" id="rb_iconid_21" tabindex="1" onclick="swap_posticon('pi_21')"  /></td>
+<td width="12%"><label for="rb_iconid_21"><img src="images/icons/1 (16).gif" alt="1 (16)" id="pi_21" onclick="rb_iconid_21.click()" /></label></td>
+<td><input type="radio" name="iconid" value="20" id="rb_iconid_20" tabindex="1" onclick="swap_posticon('pi_20')"  /></td>
+<td width="12%"><label for="rb_iconid_20"><img src="images/icons/1 (9).png" alt="1 (9)" id="pi_20" onclick="rb_iconid_20.click()" /></label></td>
+<td><input type="radio" name="iconid" value="19" id="rb_iconid_19" tabindex="1" onclick="swap_posticon('pi_19')"  /></td>
+<td width="12%"><label for="rb_iconid_19"><img src="images/icons/1 (8).gif" alt="1 (8)" id="pi_19" onclick="rb_iconid_19.click()" /></label></td>
+<td><input type="radio" name="iconid" value="18" id="rb_iconid_18" tabindex="1" onclick="swap_posticon('pi_18')"  /></td>
+<td width="12%"><label for="rb_iconid_18"><img src="images/icons/1 (6).gif" alt="1 (6)" id="pi_18" onclick="rb_iconid_18.click()" /></label></td>
+<td><input type="radio" name="iconid" value="17" id="rb_iconid_17" tabindex="1" onclick="swap_posticon('pi_17')"  /></td>
+<td width="12%"><label for="rb_iconid_17"><img src="images/icons/1 (5).gif" alt="1 (5)" id="pi_17" onclick="rb_iconid_17.click()" /></label></td>
+<td><input type="radio" name="iconid" value="16" id="rb_iconid_16" tabindex="1" onclick="swap_posticon('pi_16')"  /></td>
+<td width="12%"><label for="rb_iconid_16"><img src="images/icons/1 (4).gif" alt="1 (4)" id="pi_16" onclick="rb_iconid_16.click()" /></label></td>
+<td><input type="radio" name="iconid" value="29" id="rb_iconid_29" tabindex="1" onclick="swap_posticon('pi_29')"  /></td>
+<td width="12%"><label for="rb_iconid_29"><img width="16" height="16" src="images/icons/icon2.gif" alt="Icon2" id="pi_29" onclick="rb_iconid_29.click()" /></label></td>
+</tr><tr><td>&nbsp;</td><td><input type="radio" name="iconid" value="30" id="rb_iconid_30" tabindex="1" onclick="swap_posticon('pi_30')"  /></td>
+<td width="12%"><label for="rb_iconid_30"><img width="14" height="16" src="images/icons/icon3.gif" alt="Icon3" id="pi_30" onclick="rb_iconid_30.click()" /></label></td>
+<td><input type="radio" name="iconid" value="44" id="rb_iconid_44" tabindex="1" onclick="swap_posticon('pi_44')"  /></td>
+<td width="12%"><label for="rb_iconid_44"><img src="images/icons/makeup.gif" alt="Makeup" id="pi_44" onclick="rb_iconid_44.click()" /></label></td>
+<td><input type="radio" name="iconid" value="43" id="rb_iconid_43" tabindex="1" onclick="swap_posticon('pi_43')"  /></td>
+<td width="12%"><label for="rb_iconid_43"><img src="images/icons/iq.gif" alt="Iq" id="pi_43" onclick="rb_iconid_43.click()" /></label></td>
+<td><input type="radio" name="iconid" value="42" id="rb_iconid_42" tabindex="1" onclick="swap_posticon('pi_42')"  /></td>
+<td width="12%"><label for="rb_iconid_42"><img src="images/icons/icon122.gif" alt="Icon122" id="pi_42" onclick="rb_iconid_42.click()" /></label></td>
+<td><input type="radio" name="iconid" value="41" id="rb_iconid_41" tabindex="1" onclick="swap_posticon('pi_41')"  /></td>
+<td width="12%"><label for="rb_iconid_41"><img src="images/icons/icon101.gif" alt="Icon101" id="pi_41" onclick="rb_iconid_41.click()" /></label></td>
+<td><input type="radio" name="iconid" value="40" id="rb_iconid_40" tabindex="1" onclick="swap_posticon('pi_40')"  /></td>
+<td width="12%"><label for="rb_iconid_40"><img width="16" height="16" src="images/icons/icon14.gif" alt="Icon14" id="pi_40" onclick="rb_iconid_40.click()" /></label></td>
+<td><input type="radio" name="iconid" value="39" id="rb_iconid_39" tabindex="1" onclick="swap_posticon('pi_39')"  /></td>
+<td width="12%"><label for="rb_iconid_39"><img width="16" height="16" src="images/icons/icon13.gif" alt="Icon13" id="pi_39" onclick="rb_iconid_39.click()" /></label></td>
+</tr><tr><td>&nbsp;</td><td><input type="radio" name="iconid" value="38" id="rb_iconid_38" tabindex="1" onclick="swap_posticon('pi_38')"  /></td>
+<td width="12%"><label for="rb_iconid_38"><img width="16" height="16" src="images/icons/icon12.gif" alt="Icon12" id="pi_38" onclick="rb_iconid_38.click()" /></label></td>
+<td><input type="radio" name="iconid" value="37" id="rb_iconid_37" tabindex="1" onclick="swap_posticon('pi_37')"  /></td>
+<td width="12%"><label for="rb_iconid_37"><img width="16" height="16" src="images/icons/icon11.gif" alt="Icon11" id="pi_37" onclick="rb_iconid_37.click()" /></label></td>
+<td><input type="radio" name="iconid" value="36" id="rb_iconid_36" tabindex="1" onclick="swap_posticon('pi_36')"  /></td>
+<td width="12%"><label for="rb_iconid_36"><img width="16" height="16" src="images/icons/icon9.gif" alt="Icon9" id="pi_36" onclick="rb_iconid_36.click()" /></label></td>
+<td><input type="radio" name="iconid" value="35" id="rb_iconid_35" tabindex="1" onclick="swap_posticon('pi_35')"  /></td>
+<td width="12%"><label for="rb_iconid_35"><img width="16" height="16" src="images/icons/icon8.gif" alt="Icon8" id="pi_35" onclick="rb_iconid_35.click()" /></label></td>
+<td><input type="radio" name="iconid" value="34" id="rb_iconid_34" tabindex="1" onclick="swap_posticon('pi_34')"  /></td>
+<td width="12%"><label for="rb_iconid_34"><img width="16" height="16" src="images/icons/icon7.gif" alt="Icon7" id="pi_34" onclick="rb_iconid_34.click()" /></label></td>
+<td><input type="radio" name="iconid" value="33" id="rb_iconid_33" tabindex="1" onclick="swap_posticon('pi_33')"  /></td>
+<td width="12%"><label for="rb_iconid_33"><img width="16" height="16" src="images/icons/icon6.gif" alt="Icon6" id="pi_33" onclick="rb_iconid_33.click()" /></label></td>
+<td><input type="radio" name="iconid" value="32" id="rb_iconid_32" tabindex="1" onclick="swap_posticon('pi_32')"  /></td>
+<td width="12%"><label for="rb_iconid_32"><img width="16" height="16" src="images/icons/icon5.gif" alt="Icon5" id="pi_32" onclick="rb_iconid_32.click()" /></label></td>
+</tr><tr><td>&nbsp;</td><td><input type="radio" name="iconid" value="31" id="rb_iconid_31" tabindex="1" onclick="swap_posticon('pi_31')"  /></td>
+<td width="12%"><label for="rb_iconid_31"><img width="16" height="16" src="images/icons/icon4.gif" alt="Icon4" id="pi_31" onclick="rb_iconid_31.click()" /></label></td>
+<td><input type="radio" name="iconid" value="24" id="rb_iconid_24" tabindex="1" onclick="swap_posticon('pi_24')"  /></td>
+<td width="12%"><label for="rb_iconid_24"><img src="images/icons/Animation.gif" alt="Animation" id="pi_24" onclick="rb_iconid_24.click()" /></label></td>
+
+				<td colspan="10">&nbsp;</td>
+			</tr>
+			</table>
+		</div>
+	</fieldset>
+
+	</div>
+	</div>
+
+	<div style="margin-top:6px">
+		<input type="hidden" name="s" value="" />
+		<input type="hidden" name="securitytoken" value="1373097716-d4fd1cb61f89f60403008a70cbd7ef2bc48b63bc" />
+		<input type="hidden" name="f" value="35" />
+		<input type="hidden" name="do" value="postthread" />
+		<input type="hidden" name="posthash" value="" />
+		<input type="hidden" name="poststarttime" value="" />
+		<input type="hidden" name="loggedinuser" value="50261" />
+		<input type="submit" class="button" name="sbutton" id="vB_Editor_001_save" value="«⁄ „œ «·„Ê÷Ê⁄ «·ÃœÌœ" accesskey="s" tabindex="1" />
+		<input type="submit" class="button" name="preview" value="„⁄«Ì‰… «·„‘«—ﬂ…" accesskey="r" tabindex="1" />
+	</div>
+	</td>
+</tr>
+</table>
+
+
+<br />
+
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="100%" align="center">
+<thead>
+	<tr>
+		<td class="tcat">
+			<a style="float:left" href="#top" onclick="return toggle_collapse('newpost_options')"><img id="collapseimg_newpost_options" src="7kaya-free/buttons/collapse_tcat.gif" alt="" border="0" /></a>
+			«·ŒÌ«—«  «·≈÷«›Ì…
+		</td>
+	</tr>
+</thead>
+<tbody id="collapseobj_newpost_options" style="">
+	<tr valign="top">
+		<td class="panelsurround" align="center">
+		<div class="panel">
+			<div style="width:640px" align="right">
+
+				
+
+				
+				<fieldset class="fieldset">
+					<legend>«·ŒÌ«—«  «·„ ‰Ê⁄…</legend>
+					<div style="padding:3px">
+						
+						<div><label for="cb_parseurl"><input type="checkbox" name="parseurl" value="1" id="cb_parseurl" tabindex="1" checked="checked" /> ›⁄Ì· «·—Ê«»ÿ  ·ﬁ«∆Ì¬ ›Ì «·„‘«—ﬂ…</label></div>
+						<div><label for="cb_disablesmilies"><input type="checkbox" name="disablesmilies" value="1" id="cb_disablesmilies" tabindex="1"  />≈Ìﬁ«› «·≈» ”«„«  ›Ì Â–Â «·„‘«—ﬂ…</label></div>
+
+					</div>
+				</fieldset>
+				
+
+				
+
+				
+				<fieldset class="fieldset">
+					<legend>«‘ —«ﬂ ›Ì «·„Ê÷Ê⁄</legend>
+					<table cellpadding="0" cellspacing="3" border="0">
+					<tr>
+						<td>‰Ê⁄ «· »·Ì€:<br /><select name="emailupdate" tabindex="1">
+							<option value="9999" selected="selected">»œÊ‰ «‘ —«ﬂ</option>
+							<option value="0" >»œÊ‰  »·Ì€ »«·»—Ìœ «·≈·ﬂ —Ê‰Ì</option>
+							<option value="1" > »·Ì€ ›Ê—Ì »«·»—Ìœ «·≈·ﬂ —Ê‰Ì</option>
+							<option value="2" >«· »·Ì€ «·ÌÊ„Ì »«·»—Ìœ «·≈·ﬂ —Ê‰Ì</option>
+							<option value="3" > »·Ì€ √”»Ê⁄Ì »«·»—Ìœ «·≈·ﬂ —Ê‰Ì</option>
+						</select></td>
+						
+					</tr>
+					</table>
+				</fieldset>
+				
+
+				
+				<fieldset class="fieldset">
+					<legend>«÷«›… ≈” ÿ·«⁄</legend>
+					<div style="padding:3px">
+						<div><label for="cb_postpoll"><input type="checkbox" name="postpoll" value="yes" id="cb_postpoll" tabindex="1"  />‰⁄„, √—Ìœ ≈÷«›… ≈” ÿ·«⁄ ›Ì Â–« «·„Ê÷Ê⁄</label></div>
+						<div><label for="polloptnum">⁄œœ ŒÌ«—«  «· ’ÊÌ : <input type="text" class="bginput" size="5" name="polloptions" value="4" id="polloptnum" tabindex="1" /></label> («·Õœ «·√ﬁ’Ï: 15)</div>
+					</div>
+				</fieldset>
+				
+
+				
+
+				</div>
+			</div>
+
+			<div style="margin-top:6px">
+				<input type="submit" class="button" name="sbutton" value="«⁄ „œ «·„Ê÷Ê⁄ «·ÃœÌœ" accesskey="s" tabindex="1" />
+				<input type="submit" class="button" name="preview" value="„⁄«Ì‰… «·„‘«—ﬂ…" accesskey="r" tabindex="1" />
+			</div>
+		</td>
+	</tr>
+</tbody>
+</table>
+
+
+</form>
+
+<br />
+
+<table class="tborder" cellpadding="6" cellspacing="1" border="0" width="210">
+<thead>
+<tr>
+	<td class="thead">
+		<a style="float:left" href="#top" onclick="return toggle_collapse('forumrules')"><img id="collapseimg_forumrules" src="7kaya-free/buttons/collapse_thead.gif" alt="" border="0" /></a>
+		 ⁄·Ì„«  «·„‘«—ﬂ…
+	</td>
+</tr>
+</thead>
+<tbody id="collapseobj_forumrules" style="">
+<tr>
+	<td class="alt1" nowrap="nowrap"><div class="smallfont">
+		
+		<div><strong> ” ÿÌ⁄</strong> ≈÷«›… „Ê«÷Ì⁄ ÃœÌœ…</div>
+		<div><strong> ” ÿÌ⁄</strong> «·—œ ⁄·Ï «·„Ê«÷Ì⁄</div>
+		<div><strong>·«  ” ÿÌ⁄</strong> ≈—›«ﬁ „·›« </div>
+		<div><strong> ” ÿÌ⁄</strong>  ⁄œÌ· „‘«—ﬂ« ﬂ</div>
+		<hr />
+		
+		<div><a rel="nofollow" href="misc.php?do=bbcode" target="_blank">BB code</a> is <strong>„ «Õ…</strong></div>
+		<div><a rel="nofollow" href="misc.php?do=showsmilies" target="_blank">«·«» ”«„« </a> <strong>„ «Õ…</strong></div>
+		<div><a rel="nofollow" href="misc.php?do=bbcode#imgcode" target="_blank">ﬂÊœ [IMG]</a> <strong>„ «Õ…</strong></div>
+		<div>ﬂÊœ HTML <strong>„⁄ÿ·…</strong></div><div></div>
+<div></div>
+<div></div>
+		<hr />
+		<div><a rel="nofollow" href="misc.php?do=showrules" target="_blank">ﬁÊ«‰Ì‰ «·„‰ œÏ</a></div>
+	</div></td>
+</tr>
+</tbody>
+</table>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=8314743; 
+var sc_invisible=1; 
+var sc_security="58340a5f"; 
+</script>
+<script type="text/javascript"
+src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a rel="nofollow" title="godaddy hit
+counter"
+href="http://statcounter.com/godaddy_website_tonight/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/8314743/0/58340a5f/1/"
+alt="godaddy hit counter"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+<div align="center">
+	<table border="4" width="68%" id="table1" bordercolor="#800000" height="86">
+		<tr>
+			<td colspan="6">
+			<p align="center"><span lang="ar-ye">
+			<font color="#FF00FF" face="Arial Black"><strong>„‹‹‹Ê«ﬁ‹‹⁄ ’‹‹‹œÌ‹‹ﬁ‹‹‹…  ‹›‹÷‹‹·Ê« 
+			»‹“Ì‹‹«— Â‹‹‹«</strong></font></span></td>
+		</tr>
+		<tr>
+			<td align="center" width="17%">
+			<font color="#0000FF" face="Arial Black"><span lang="ar-ye">
+			<a title="Õ»Ì ·ﬂ , Õ»Ì , „‰ œÏ Õ»Ì ·ﬂ , „‰ œÌ«  Õ»Ì ·ﬂ" <a rel="nofollow" target="_blank" href="http://www.7belk.com/vb/" style="text-decoration: none; font-weight: 700">
+			<font color="#FF0000">„‰ œÌ«  Õ»Ì ·ﬂ</font></a></span></font></td>
+			<td align="center" width="15%">
+			<font color="#0000FF" face="Arial Black"><span lang="ar-ye">
+			<a title="„‰ œÏ ⁄ÌÊ‰ﬂ , ⁄ÌÊ‰ﬂ , „‰ œÌ«  ⁄ÌÊ‰ﬂ" <a rel="nofollow" target="_blank" href="http://www.eyoonk.com/vb/" style="text-decoration: none; font-weight: 700">
+			<font color="#FF0000">„‰ œÌ«  ⁄ÌÊ‰ﬂ</font></a></span></font></td>
+			<td align="center" width="18%">
+			<font color="#0000FF" face="Arial Black"><span lang="ar-ye">
+			<a title="«Õ·Ï ⁄ÌÊ‰ , „‰ œÏ «Õ·Ï ⁄ÌÊ‰" <a rel="nofollow" target="_blank" style="text-decoration: none; font-weight: 700" href="http://vb.ahlaeyon.com/">
+			<font color="#FF0000">„‰ œÌ«  «Õ·Ï ⁄ÌÊ‰</font></a></span></font></td>
+			<td align="center" width="16%">
+			<span style="font-weight: 700" lang="ar-ye">
+			<font face="Arial Black">
+			<a rel="nofollow" style="text-decoration: none" title="„‰ œÏ «›·«„ “Ì—Ê , «€«‰Ì , «›·«„ Õ’—Ì… 2013 ,„”·”·« " target="_blank" href="http://aflam0.com/">
+			<font color="#FF0000">«›·«„ “Ì—Ê</font></a></font></span></td>
+			<td align="center" width="15%">
+			<span lang="ar-ye">
+			<a rel="nofollow" target="_blank" style="text-decoration: none; font-weight: 700" title="‘«  ⁄ÌÊ‰ﬂ ,œ—œ‘… ⁄ÌÊ‰ﬂ , ⁄ÌÊ‰ﬂ, ‘«  ⁄ÌÊ‰" href="http://www.eyoonk.com/">
+			<font color="#FF0000">‘«  ⁄ÌÊ‰ﬂ</font></a></span></td>
+			<td align="center" width="16%">
+			<span style="font-weight: 700" lang="ar-ye">
+			<font face="Arial Black">
+			<a rel="nofollow" style="text-decoration: none" title="„‰ œÏ «·Ê«‰ › «Â «·‰”«∆Ì , «·Ê«‰ › «Â , „‰ œÌ«  «·Ê«‰ › «…" target="_blank" href="http://forum.girl29.com/">
+			<font color="#FF0000">«·Ê«‰ › «Â «·‰”«∆Ì</font></a></font></span></td>
+		</tr>
+	</table>
+</div>
+
+<br>
+<p align="center"><b><font size="4" color="#FF0000" face="Arial Black">
+<a rel="nofollow" target="_blank" href="http://vb.7mry.com/lostpw.htm" style="text-decoration: none">
+<font color="#FF0000">‘—Õ ÿ·» ﬂ·„… «·„—Ê— „‰ Â‰«</font></a></font></b></p>
+
+
+<br />
+<div class="smallfont" align="center">«·”«⁄… «·¬‰ <span class="time">11:01 AM</span>.</div>
+<br />
+
+
+		</div>
+	</div>
+</div>
+
+<!-- / close content container -->
+<!-- /content area table -->
+
+<form action="/" method="get" style="clear:right">
+
+<table cellpadding="6" cellspacing="0" border="0" width="100%" class="page" align="center">
+<tr>
+	
+		<td class="tfoot">
+			<select name="styleid" onchange="switch_id(this, 'style')">
+				<optgroup label="«Œ Ì«— «· ’„Ì„ «·”—Ì⁄">
+					<option value="54" class="" selected="selected">-- ” «Ì· ⁄„—Ì «·ÃœÌœ 2013</option>
+<option value="59" class="" >-- ⁄Ìœ «·«÷ÕÏ</option>
+<option value="42" class="" >-- ” «Ì· ÃœÌœ 2011</option>
+<option value="44" class="" >-- ” «Ì· «»Ì÷ „⁄ Ê—œÌ 2012</option>
+<option value="47" class="" >-- ” «Ì· —„÷«‰ 2012</option>
+<option value="49" class="" >-- ” «Ì· ⁄Ìœ «·›ÿ— 1433</option>
+<option value="57" class="" >-- ” «Ì· —Ê„«‰”Ì 2013</option>
+<option value="39" class="" >-- ” «Ì· ⁄„—Ì 2012</option>
+<option value="51" class="" >-- ” «Ì· ⁄„—Ì 2013</option>
+<option value="32" class="" >-- ” ««Ì· 2011</option>
+<option value="53" class="" >-- ⁄„—Ì 2013</option>
+<option value="27" class="" >-- ” «Ì· —Ê„«‰”Ì 2010</option>
+<option value="36" class="" >-- ” «Ì· ⁄Ìœ «·«÷ÕÏ</option>
+<option value="28" class="" >-- ” «Ì· ›” «</option>
+<option value="1" class="" >-- Default Style</option>
+
+				</optgroup>
+			</select>
+		</td>
+	
+	
+	<td class="tfoot" align="left" width="100%">
+		<div class="smallfont">
+			<strong>
+				<a href="sendmessage.php" rel="nofollow" accesskey="9">«·« ’«· »‰«</a> -
+				<a rel="nofollow" href="http://7mry.com">‘«  ⁄„—Ì - „‰ œÏ ⁄„—Ì</a> -
+				
+				
+				<a href="sitemap/">«·√—‘Ì›</a> -
+				
+				
+				
+				<a href="#top" onclick="self.scrollTo(0, 0); return false;">«·√⁄·Ï</a>
+			</strong>
+		</div>
+	</td>
+</tr>
+</table>
+
+<br />
+
+<div align="center">
+	<div class="smallfont" align="center">
+	<!-- Do not remove this copyright notice -->
+	
+Powered by vBulletin&reg; Copyright &copy;2000 - 2013, Jelsoft Enterprises Ltd. ,
+<br />Content Relevant URLs by vBSEO 3.6.0<a rel="nofollow" title=" ⁄—Ì»" href="http://7mry.com"> „‰ œÌ«  ⁄„—Ì</a>
+	<!-- Do not remove this copyright notice -->
+	</div>
+
+	<div class="smallfont" align="center">
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+	
+	<!-- Do not remove cronimage or your scheduled tasks will cease to function -->
+
+	Ã„Ì⁄ «·„‘«—ﬂ«  «·„ﬂ Ê»…  ⁄»¯— ⁄‰ ÊÃÂ… ‰Ÿ— ’«Õ»Â« ... Ê·«  ⁄»¯— »√Ì ‘ﬂ· „‰ «·√‘ﬂ«· ⁄‰ ÊÃÂ… ‰Ÿ— «·„‰ œÏ
+	</div>
+</div>
+
+</form>
+
+
+
+
+<!-- auto DST correction code -->
+<form action="profile.php?do=dst" method="post" name="dstform">
+	<input type="hidden" name="s" value="" />
+	<input type="hidden" name="securitytoken" value="1373097716-d4fd1cb61f89f60403008a70cbd7ef2bc48b63bc" />
+	<input type="hidden" name="do" value="dst" />
+</form>
+<script type="text/javascript">
+<!--
+	var tzOffset = 3 + 0;
+	var utcOffset = new Date().getTimezoneOffset() / 60;
+	if (Math.abs(tzOffset + utcOffset) == 1)
+	{	// Dst offset is 1 so its changed
+		document.forms.dstform.submit();
+	}
+//-->
+</script>
+<!-- / auto DST correction code -->
+
+
+<script type="text/javascript">
+<!--
+	// Main vBulletin Javascript Initialization
+	vBulletin_init();
+//-->
+</script>
+<div id="footer">
+	<div class="center">
+    </div>
+</div>
+                                                 <SCRIPT language="JavaScript">
+                                                 while(shimmercount>0) {
+                                                    var shimmerstring=shimmercount+ 'shine';
+                                                    eval('var colcon= shimmercolor' +shimmercount);
+                                                    eval('var shimspeed="shimmerspeed' +shimmercount+ '"');
+                                                    eval('var shimcolor="' +colcon+ '"');
+                                                    shine(shimmerstring, shimcolor, shimspeed);
+                                                    var shimmercount=shimmercount-1;
+                                                 };
+                                                 while(glitcount>0) {
+                                                    var glitstring=glitcount+ 'glitter';
+                                                    eval('var colcon= glitcolor' +glitcount);
+                                                    eval('var glitspeed="glitspeed' +glitcount+ '"');
+                                                    eval('var glitcolor="' +colcon+ '"');
+                                                    glitter(glitstring, glitcolor, glitspeed);
+                                                    var glitcount=glitcount-1;
+                                                 };
+                                                 while(rainbowcount>0) {
+                                                         eval('var rain'+rainbowcount+'=document.getElementById("rain'+rainbowcount+'");');
+                                                         eval('var rainbowspanning'+rainbowcount+'=new RainbowSpan(rain'+rainbowcount+', 0, 360, 255, 50, 348);');
+                                                         eval('rainbowspanning'+rainbowcount+'.timer=window.setInterval("rainbowspanning'+rainbowcount+'.moveRainbow()", 50);');
+                                                         var rainbowcount=(rainbowcount-1);
+                                                 };
+                                                 </script>
+                        
+
+</body>
 </html>
