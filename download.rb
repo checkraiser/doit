@@ -8,6 +8,7 @@ require 'open-uri'
 require './config'
 
 
+
 agent = Mechanize.new do |a|
     a.follow_meta_refresh = true
     a.user_agent_alias = 'Mac Safari'
@@ -21,6 +22,8 @@ login_form['pw'] = PREPASS
 agent.submit login_form
 
 agent.pluggable_parser.default = Mechanize::Download
+
+
 page2 = agent.get('http://ul.to/4jjntv1w')
 File.open("testdownload.html","w").write(page2.content)
 download_form = page2.forms.first

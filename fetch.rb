@@ -1,7 +1,7 @@
 require 'rss'
 require 'open-uri'
 
-url = 'http://rslog.net/category/music/albums/feed/'
+url = 'http://rlslog.net/category/music/albums/feed/'
 open(url) do |rss|
   feed = RSS::Parser.parse(rss)
   puts "Title: #{feed.channel.title}"

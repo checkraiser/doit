@@ -6,8 +6,9 @@ require 'date'
 require 'nokogiri'
 require 'open-uri'
 require 'json'
+require './config'
 
-outputfile = ARGV[0] || "output2.txt"
+outputfile = ARGV[0] || "topic/output.txt"
 msize = 10
 
 agent = Mechanize.new do |a|
@@ -17,10 +18,9 @@ agent = Mechanize.new do |a|
 end
 page = agent.get("http://uploaded.net/#login")
 login_form = page.form_with(:action => "io/login") 
-#login_form['id'] = "8899272"
-#login_form['pw'] = "Tu228787"
-login_form['id'] = "9378237"
-login_form['pw'] = "Dung123"
+
+login_form['id'] = USERNAME
+login_form['pw'] = PASSWORD
 
 agent.submit login_form
 
